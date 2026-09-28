@@ -48,7 +48,7 @@ not defined
 BAFU mapping audit: {"bafu source exchange index": 0}</comment>
         <outputGroup>0</outputGroup>
       </intermediateExchange>
-      <intermediateExchange id="d2014abd-b8d0-5c47-b61f-6fdd0d6f4661" amount="1.055e-09" unitId="b6e46b9d-5414-59b3-a162-c830476eae1c" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="72be818c-a860-56cd-9c7d-c983c4ee93a8" intermediateExchangeId="f6a84846-3eab-5dec-b1f3-8fc013b04d5a" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
+      <intermediateExchange id="d2014abd-b8d0-5c47-b61f-6fdd0d6f4661" amount="1.055e-09" unitId="b6e46b9d-5414-59b3-a162-c830476eae1c" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="72be818c-a860-56cd-9c7d-c983c4ee93a8" intermediateExchangeId="f6a84846-3eab-5dec-b1f3-8fc013b04d5a" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" sourceFirstAuthor="" sourceYear="2007" sourceId="c2ecd56c-b998-5e9d-946a-56c955e825eb">
         <name xml:lang="en">SOFC fuel cell 125kWe, future</name>
         <unitName xml:lang="en">unit</unitName>
         <comment xml:lang="en">Full flow name: SOFC fuel cell 125kWe, future
@@ -56,10 +56,11 @@ Assumes 80000 hours of lifetime. Life Cycle Inventories of new CHP systems. Data
 BAFU mapping audit: {"bafu source exchange index": 1}</comment>
         <uncertainty>
           <lognormal meanValue="1.055e-09" varianceWithPedigreeUncertainty="0.32676481785548184" mu="-20.66972507001838"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="5" temporalCorrelation="1" reliability="2" geographicalCorrelation="2"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
-      <intermediateExchange id="f37563ad-6b2e-5689-9c56-7a7459cb829c" amount="1.055e-09" unitId="b6e46b9d-5414-59b3-a162-c830476eae1c" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="faed0646-c686-5842-8ce1-79fb10501aed" intermediateExchangeId="31add152-aa0c-5102-8eae-14410df6f343" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
+      <intermediateExchange id="f37563ad-6b2e-5689-9c56-7a7459cb829c" amount="1.055e-09" unitId="b6e46b9d-5414-59b3-a162-c830476eae1c" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="faed0646-c686-5842-8ce1-79fb10501aed" intermediateExchangeId="31add152-aa0c-5102-8eae-14410df6f343" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" sourceFirstAuthor="" sourceYear="2007" sourceId="c2ecd56c-b998-5e9d-946a-56c955e825eb">
         <name xml:lang="en">Maintenance SOFC fuel cell 125kWe, future</name>
         <unitName xml:lang="en">unit</unitName>
         <comment xml:lang="en">Full flow name: Maintenance SOFC fuel cell 125kWe, future
@@ -67,6 +68,7 @@ Assumes 80000 hours of lifetime. Life Cycle Inventories of new CHP systems. Data
 BAFU mapping audit: {"bafu source exchange index": 2}</comment>
         <uncertainty>
           <lognormal meanValue="1.055e-09" varianceWithPedigreeUncertainty="0.32676481785548184" mu="-20.66972507001838"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="5" temporalCorrelation="1" reliability="2" geographicalCorrelation="2"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -78,6 +80,7 @@ BAFU mapping audit: {"bafu source exchange index": 2}</comment>
 BAFU mapping audit: {"bafu source exchange index": 3}</comment>
         <uncertainty>
           <lognormal meanValue="1.959e-06" varianceWithPedigreeUncertainty="0.02558515731148669" mu="-13.14307641900187"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="5" temporalCorrelation="1" reliability="1" geographicalCorrelation="2"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -89,6 +92,7 @@ Hydrogen input. 1 [MJ H2]/120 [MJ/kg H2]/ eff.(th) {2;5;1;2;3;5;1.05;}
 BAFU mapping audit: {"bafu source exchange index": 4}</comment>
         <uncertainty>
           <lognormal meanValue="0.002062" varianceWithPedigreeUncertainty="0.026168194326255483" mu="-6.184078893387369"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="5" temporalCorrelation="1" reliability="2" geographicalCorrelation="2"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -100,6 +104,7 @@ BAFU mapping audit: {"bafu source exchange index": 4}</comment>
 BAFU mapping audit: {"bafu source exchange index": 5}</comment>
         <uncertainty>
           <lognormal meanValue="1.155e-05" varianceWithPedigreeUncertainty="0.026168194326255483" mu="-11.36882512099647"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="5" temporalCorrelation="1" reliability="2" geographicalCorrelation="2"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -111,6 +116,7 @@ BAFU mapping audit: {"bafu source exchange index": 5}</comment>
 BAFU mapping audit: {"bafu source exchange index": 6}</comment>
         <uncertainty>
           <lognormal meanValue="1.8560000000000002e-05" varianceWithPedigreeUncertainty="0.026168194326255483" mu="-10.89450183060622"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="5" temporalCorrelation="1" reliability="2" geographicalCorrelation="2"/>
         </uncertainty>
         <compartment subcompartmentId="e055f9bd-09fd-5977-ad72-d4a889f6d32c" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">air</compartment>
@@ -134,7 +140,7 @@ BAFU mapping audit: {"bafu source exchange index": 7}</comment>
     <modellingAndValidation/>
     <administrativeInformation>
       <dataEntryBy personId="1426216e-3338-5592-ad7a-3abe3eb8a28a" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Romain Sacchi" personEmail="anonymised"/>
-      <dataGeneratorAndPublication personId="1426216e-3338-5592-ad7a-3abe3eb8a28a" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Romain Sacchi" personEmail="anonymised" isCopyrightProtected="true"/>
+      <dataGeneratorAndPublication personId="1426216e-3338-5592-ad7a-3abe3eb8a28a" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Romain Sacchi" personEmail="anonymised" isCopyrightProtected="true" publishedSourceId="b7e01900-ae5f-5ba1-abd8-2a32ea95a166" publishedSourceYear="2024" publishedSourceFirstAuthor=""/>
       <fileAttributes majorRelease="2026" minorRelease="0" majorRevision="1" minorRevision="0" defaultLanguage="en" contextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" fileGenerator="BAFU mapped EcoSpold 2 export" internalSchemaVersion="2.0.14">
         <contextName xml:lang="en">BAFU 2026 mapped export; local supporting UUIDs</contextName>
       </fileAttributes>

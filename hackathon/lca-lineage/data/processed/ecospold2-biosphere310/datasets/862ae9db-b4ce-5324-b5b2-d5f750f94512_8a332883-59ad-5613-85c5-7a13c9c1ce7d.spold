@@ -1205,6 +1205,7 @@ Dioxine (2,3,7,8,tetrachlorodibenzo-p-dioxin); Questionnaires
 BAFU mapping audit: {"bafu source exchange index": 75}</comment>
         <uncertainty>
           <lognormal meanValue="1.4699e-13" varianceWithPedigreeUncertainty="0.21103350406895313" mu="-29.54841183765679"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="5" reliability="2" geographicalCorrelation="5"/>
         </uncertainty>
         <compartment subcompartmentId="4715d9fb-1efc-5514-9bf6-f0bb4e5fab5f" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">air</compartment>
@@ -1392,7 +1393,7 @@ BAFU mapping audit: {"bafu source exchange index": 97}</comment>
     <modellingAndValidation/>
     <administrativeInformation>
       <dataEntryBy personId="3d74c121-61c4-51c4-953c-dfce5ccdecd8" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Franziska Wyss" personEmail="anonymised"/>
-      <dataGeneratorAndPublication personId="3d74c121-61c4-51c4-953c-dfce5ccdecd8" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Franziska Wyss" personEmail="anonymised" isCopyrightProtected="true"/>
+      <dataGeneratorAndPublication personId="3d74c121-61c4-51c4-953c-dfce5ccdecd8" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Franziska Wyss" personEmail="anonymised" isCopyrightProtected="true" publishedSourceId="ccf7f4fe-f1e2-5132-9e9a-abda10cd7634" publishedSourceYear="2014" publishedSourceFirstAuthor=""/>
       <fileAttributes majorRelease="2026" minorRelease="0" majorRevision="1" minorRevision="0" defaultLanguage="en" contextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" fileGenerator="BAFU mapped EcoSpold 2 export" internalSchemaVersion="2.0.14">
         <contextName xml:lang="en">BAFU 2026 mapped export; local supporting UUIDs</contextName>
       </fileAttributes>

@@ -177,7 +177,7 @@ BAFU mapping audit: {"bafu source exchange index": 9}</comment>
         </compartment>
         <outputGroup>4</outputGroup>
       </elementaryExchange>
-      <elementaryExchange id="11cb4c8f-0a62-5462-8da6-03a47d559a0c" amount="2.0173e-05" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" elementaryExchangeId="175baa64-d985-4c5e-84ef-67cc3a1cf952">
+      <elementaryExchange id="11cb4c8f-0a62-5462-8da6-03a47d559a0c" amount="2.0173e-05" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" elementaryExchangeId="175baa64-d985-4c5e-84ef-67cc3a1cf952" sourceFirstAuthor="Schmieder" sourceYear="2002" sourceId="48615848-6076-564a-8d4f-ce2b8571b5de">
         <name xml:lang="en">NMVOC, non-methane volatile organic compounds</name>
         <unitName xml:lang="en">kilogram</unitName>
         <comment xml:lang="en">Full flow name: NMVOC, non-methane volatile organic compounds
@@ -225,7 +225,7 @@ BAFU mapping audit: {"bafu source exchange index": 13}</comment>
         </compartment>
         <outputGroup>4</outputGroup>
       </elementaryExchange>
-      <elementaryExchange id="d5c4d98b-c0ea-5b80-a5fa-b738b7413e56" amount="0.00017349" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" elementaryExchangeId="5f7aad3d-566c-4d0d-ad59-e765f971aa0f">
+      <elementaryExchange id="d5c4d98b-c0ea-5b80-a5fa-b738b7413e56" amount="0.00017349" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" elementaryExchangeId="5f7aad3d-566c-4d0d-ad59-e765f971aa0f" sourceFirstAuthor="Schmieder" sourceYear="2002" sourceId="48615848-6076-564a-8d4f-ce2b8571b5de">
         <name xml:lang="en">Methane, fossil</name>
         <unitName xml:lang="en">kilogram</unitName>
         <comment xml:lang="en">Full flow name: Methane, fossil
@@ -245,7 +245,7 @@ BAFU mapping audit: {"bafu source exchange index": 14}</comment>
     <modellingAndValidation/>
     <administrativeInformation>
       <dataEntryBy personId="ed3fc1e0-76f9-5a39-9214-90513502264b" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Thomas Heck" personEmail="anonymised"/>
-      <dataGeneratorAndPublication personId="ed3fc1e0-76f9-5a39-9214-90513502264b" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Thomas Heck" personEmail="anonymised" isCopyrightProtected="true"/>
+      <dataGeneratorAndPublication personId="ed3fc1e0-76f9-5a39-9214-90513502264b" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Thomas Heck" personEmail="anonymised" isCopyrightProtected="true" publishedSourceId="95af2287-82f5-52eb-8f57-7265d3a26103" publishedSourceYear="2007" publishedSourceFirstAuthor=""/>
       <fileAttributes majorRelease="2026" minorRelease="0" majorRevision="1" minorRevision="0" defaultLanguage="en" contextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" fileGenerator="BAFU mapped EcoSpold 2 export" internalSchemaVersion="2.0.14">
         <contextName xml:lang="en">BAFU 2026 mapped export; local supporting UUIDs</contextName>
       </fileAttributes>

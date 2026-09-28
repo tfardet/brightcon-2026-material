@@ -49,7 +49,7 @@ Central european power association
 BAFU mapping audit: {"bafu source exchange index": 0}</comment>
         <outputGroup>0</outputGroup>
       </intermediateExchange>
-      <intermediateExchange id="0d884633-42ba-50e7-949f-0ebb53b84fa1" amount="9.73" unitId="ad3ccf08-e271-5e1c-8e72-c36b31eea981" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="eb789539-53e1-5534-ad0e-1d1e874a263a" intermediateExchangeId="7b262689-d0f4-5a31-a948-021545b53d7d" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
+      <intermediateExchange id="0d884633-42ba-50e7-949f-0ebb53b84fa1" amount="9.73" unitId="ad3ccf08-e271-5e1c-8e72-c36b31eea981" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="eb789539-53e1-5534-ad0e-1d1e874a263a" intermediateExchangeId="7b262689-d0f4-5a31-a948-021545b53d7d" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" sourceFirstAuthor="" sourceYear="1990" sourceId="a83875ab-1c2c-585f-9877-04e61773235c">
         <name xml:lang="en">Blast furnace gas, burned in power plant</name>
         <unitName xml:lang="en">megajoule</unitName>
         <comment xml:lang="en">Full flow name: Blast furnace gas, burned in power plant
@@ -61,7 +61,7 @@ BAFU mapping audit: {"bafu source exchange index": 1}</comment>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
-      <intermediateExchange id="362b98e1-6eb9-5552-9660-e0810fd93261" amount="3.61" unitId="ad3ccf08-e271-5e1c-8e72-c36b31eea981" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="c42a4d41-d1f7-5bbd-9095-906976dde39d" intermediateExchangeId="68d4c5c1-e350-5e39-a483-e458a2c1344d" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
+      <intermediateExchange id="362b98e1-6eb9-5552-9660-e0810fd93261" amount="3.61" unitId="ad3ccf08-e271-5e1c-8e72-c36b31eea981" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="c42a4d41-d1f7-5bbd-9095-906976dde39d" intermediateExchangeId="68d4c5c1-e350-5e39-a483-e458a2c1344d" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" sourceFirstAuthor="" sourceYear="1990" sourceId="a83875ab-1c2c-585f-9877-04e61773235c">
         <name xml:lang="en">Coke oven gas, burned in power plant</name>
         <unitName xml:lang="en">megajoule</unitName>
         <comment xml:lang="en">Full flow name: Coke oven gas, burned in power plant
@@ -77,7 +77,7 @@ BAFU mapping audit: {"bafu source exchange index": 2}</comment>
     <modellingAndValidation/>
     <administrativeInformation>
       <dataEntryBy personId="ed3fc1e0-76f9-5a39-9214-90513502264b" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Thomas Heck" personEmail="anonymised"/>
-      <dataGeneratorAndPublication personId="ed3fc1e0-76f9-5a39-9214-90513502264b" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Thomas Heck" personEmail="anonymised" isCopyrightProtected="true"/>
+      <dataGeneratorAndPublication personId="ed3fc1e0-76f9-5a39-9214-90513502264b" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Thomas Heck" personEmail="anonymised" isCopyrightProtected="true" publishedSourceId="92a23665-da5d-5b56-baac-eb3e8b714a89" publishedSourceYear="2007" publishedSourceFirstAuthor=""/>
       <fileAttributes majorRelease="2026" minorRelease="0" majorRevision="1" minorRevision="0" defaultLanguage="en" contextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" fileGenerator="BAFU mapped EcoSpold 2 export" internalSchemaVersion="2.0.14">
         <contextName xml:lang="en">BAFU 2026 mapped export; local supporting UUIDs</contextName>
       </fileAttributes>

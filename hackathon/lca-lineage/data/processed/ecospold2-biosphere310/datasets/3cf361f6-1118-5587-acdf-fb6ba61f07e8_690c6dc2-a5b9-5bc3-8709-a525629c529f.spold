@@ -59,6 +59,7 @@ BAFU mapping audit: {"bafu source exchange index": 0}</comment>
 BAFU mapping audit: {"bafu source exchange index": 6}</comment>
         <uncertainty>
           <lognormal meanValue="265.3" varianceWithPedigreeUncertainty="0.1779295873243664" mu="5.580861261143694"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="5" geographicalCorrelation="3"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -70,6 +71,7 @@ BAFU mapping audit: {"bafu source exchange index": 6}</comment>
 BAFU mapping audit: {"bafu source exchange index": 7}</comment>
         <uncertainty>
           <lognormal meanValue="2813.3" varianceWithPedigreeUncertainty="0.01791019061776975" mu="7.942113450510469"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="2" geographicalCorrelation="3"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -81,6 +83,7 @@ BAFU mapping audit: {"bafu source exchange index": 7}</comment>
 BAFU mapping audit: {"bafu source exchange index": 8}</comment>
         <uncertainty>
           <lognormal meanValue="2813.3" varianceWithPedigreeUncertainty="0.01791019061776975" mu="7.942113450510469"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="2" geographicalCorrelation="3"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -92,6 +95,7 @@ BAFU mapping audit: {"bafu source exchange index": 8}</comment>
 BAFU mapping audit: {"bafu source exchange index": 9}</comment>
         <uncertainty>
           <lognormal meanValue="197.04" varianceWithPedigreeUncertainty="0.01791019061776975" mu="5.283406753812282"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="2" geographicalCorrelation="3"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -103,6 +107,7 @@ BAFU mapping audit: {"bafu source exchange index": 9}</comment>
 BAFU mapping audit: {"bafu source exchange index": 10}</comment>
         <uncertainty>
           <lognormal meanValue="0.96424" varianceWithPedigreeUncertainty="0.01791019061776975" mu="-0.03641505270204893"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="2" geographicalCorrelation="3"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -114,6 +119,7 @@ BAFU mapping audit: {"bafu source exchange index": 10}</comment>
 BAFU mapping audit: {"bafu source exchange index": 11}</comment>
         <uncertainty>
           <lognormal meanValue="89.277" varianceWithPedigreeUncertainty="0.01791019061776975" mu="4.491743895917899"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="2" geographicalCorrelation="3"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -125,6 +131,7 @@ BAFU mapping audit: {"bafu source exchange index": 11}</comment>
 BAFU mapping audit: {"bafu source exchange index": 12}</comment>
         <uncertainty>
           <lognormal meanValue="251.31" varianceWithPedigreeUncertainty="0.01791019061776975" mu="5.526687236833828"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="2" geographicalCorrelation="3"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -136,6 +143,7 @@ BAFU mapping audit: {"bafu source exchange index": 12}</comment>
 BAFU mapping audit: {"bafu source exchange index": 13}</comment>
         <uncertainty>
           <lognormal meanValue="175.07" varianceWithPedigreeUncertainty="0.01791019061776975" mu="5.165185893944841"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="2" geographicalCorrelation="3"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -147,6 +155,7 @@ BAFU mapping audit: {"bafu source exchange index": 13}</comment>
 BAFU mapping audit: {"bafu source exchange index": 14}</comment>
         <uncertainty>
           <lognormal meanValue="76.24" varianceWithPedigreeUncertainty="0.01791019061776975" mu="4.333886259345946"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="2" geographicalCorrelation="3"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -158,6 +167,7 @@ BAFU mapping audit: {"bafu source exchange index": 14}</comment>
 BAFU mapping audit: {"bafu source exchange index": 15}</comment>
         <uncertainty>
           <lognormal meanValue="65.413" varianceWithPedigreeUncertainty="0.01791019061776975" mu="4.18072101546808"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="2" geographicalCorrelation="3"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -169,6 +179,7 @@ BAFU mapping audit: {"bafu source exchange index": 15}</comment>
 BAFU mapping audit: {"bafu source exchange index": 16}</comment>
         <uncertainty>
           <lognormal meanValue="65.413" varianceWithPedigreeUncertainty="0.01791019061776975" mu="4.18072101546808"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="2" geographicalCorrelation="3"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -180,6 +191,7 @@ BAFU mapping audit: {"bafu source exchange index": 16}</comment>
 BAFU mapping audit: {"bafu source exchange index": 17}</comment>
         <uncertainty>
           <lognormal meanValue="10339.0" varianceWithPedigreeUncertainty="0.1374234566721453" mu="9.243678431586693"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="2" geographicalCorrelation="3"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -191,6 +203,7 @@ BAFU mapping audit: {"bafu source exchange index": 17}</comment>
 BAFU mapping audit: {"bafu source exchange index": 18}</comment>
         <uncertainty>
           <lognormal meanValue="4523.6" varianceWithPedigreeUncertainty="0.14734002095482518" mu="8.417063415997172"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="3" reliability="4" geographicalCorrelation="2"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -202,6 +215,7 @@ BAFU mapping audit: {"bafu source exchange index": 18}</comment>
 BAFU mapping audit: {"bafu source exchange index": 19}</comment>
         <uncertainty>
           <lognormal meanValue="2101.9" varianceWithPedigreeUncertainty="0.14734002095482518" mu="7.650596976565934"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="3" reliability="4" geographicalCorrelation="2"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -213,6 +227,7 @@ BAFU mapping audit: {"bafu source exchange index": 19}</comment>
 BAFU mapping audit: {"bafu source exchange index": 20}</comment>
         <uncertainty>
           <lognormal meanValue="324.8" varianceWithPedigreeUncertainty="0.1374234566721453" mu="5.783209608287523"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="2" geographicalCorrelation="3"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -224,6 +239,7 @@ BAFU mapping audit: {"bafu source exchange index": 20}</comment>
 BAFU mapping audit: {"bafu source exchange index": 21}</comment>
         <uncertainty>
           <lognormal meanValue="1582.5" varianceWithPedigreeUncertainty="0.05840720360766625" mu="7.366761154018331"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="5" geographicalCorrelation="3"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -235,6 +251,7 @@ BAFU mapping audit: {"bafu source exchange index": 21}</comment>
 BAFU mapping audit: {"bafu source exchange index": 22}</comment>
         <uncertainty>
           <lognormal meanValue="1582.5" varianceWithPedigreeUncertainty="0.05840720360766625" mu="7.366761154018331"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="5" geographicalCorrelation="3"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -246,6 +263,7 @@ BAFU mapping audit: {"bafu source exchange index": 22}</comment>
 BAFU mapping audit: {"bafu source exchange index": 23}</comment>
         <uncertainty>
           <lognormal meanValue="110.83" varianceWithPedigreeUncertainty="0.05840720360766625" mu="4.707997495787562"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="5" geographicalCorrelation="3"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -257,6 +275,7 @@ BAFU mapping audit: {"bafu source exchange index": 23}</comment>
 BAFU mapping audit: {"bafu source exchange index": 24}</comment>
         <uncertainty>
           <lognormal meanValue="0.54238" varianceWithPedigreeUncertainty="0.05840720360766625" mu="-0.611788416192125"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="5" geographicalCorrelation="3"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -268,6 +287,7 @@ BAFU mapping audit: {"bafu source exchange index": 24}</comment>
 BAFU mapping audit: {"bafu source exchange index": 25}</comment>
         <uncertainty>
           <lognormal meanValue="50.218" varianceWithPedigreeUncertainty="0.05840720360766625" mu="3.9163735281654044"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="5" geographicalCorrelation="3"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -279,6 +299,7 @@ BAFU mapping audit: {"bafu source exchange index": 25}</comment>
 BAFU mapping audit: {"bafu source exchange index": 26}</comment>
         <uncertainty>
           <lognormal meanValue="141.36" varianceWithPedigreeUncertainty="0.05840720360766625" mu="4.951309828011441"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="5" geographicalCorrelation="3"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -290,6 +311,7 @@ BAFU mapping audit: {"bafu source exchange index": 26}</comment>
 BAFU mapping audit: {"bafu source exchange index": 27}</comment>
         <uncertainty>
           <lognormal meanValue="98.478" varianceWithPedigreeUncertainty="0.05840720360766625" mu="4.589833172977854"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="5" geographicalCorrelation="3"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -301,6 +323,7 @@ BAFU mapping audit: {"bafu source exchange index": 27}</comment>
 BAFU mapping audit: {"bafu source exchange index": 28}</comment>
         <uncertainty>
           <lognormal meanValue="42.885" varianceWithPedigreeUncertainty="0.05840720360766625" mu="3.7585221144423846"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="5" geographicalCorrelation="3"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -312,6 +335,7 @@ BAFU mapping audit: {"bafu source exchange index": 28}</comment>
 BAFU mapping audit: {"bafu source exchange index": 29}</comment>
         <uncertainty>
           <lognormal meanValue="36.795" varianceWithPedigreeUncertainty="0.05840720360766625" mu="3.6053619663785623"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="5" geographicalCorrelation="3"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -323,6 +347,7 @@ BAFU mapping audit: {"bafu source exchange index": 29}</comment>
 BAFU mapping audit: {"bafu source exchange index": 30}</comment>
         <uncertainty>
           <lognormal meanValue="36.795" varianceWithPedigreeUncertainty="0.05840720360766625" mu="3.6053619663785623"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="5" geographicalCorrelation="3"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -334,6 +359,7 @@ BAFU mapping audit: {"bafu source exchange index": 30}</comment>
 BAFU mapping audit: {"bafu source exchange index": 31}</comment>
         <uncertainty>
           <lognormal meanValue="5794.2" varianceWithPedigreeUncertainty="0.1779295873243664" mu="8.664612696200928"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="5" geographicalCorrelation="3"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -345,6 +371,7 @@ BAFU mapping audit: {"bafu source exchange index": 31}</comment>
 BAFU mapping audit: {"bafu source exchange index": 32}</comment>
         <uncertainty>
           <lognormal meanValue="4560.0" varianceWithPedigreeUncertainty="0.01791019061776975" mu="8.425077902508432"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="2" geographicalCorrelation="3"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -356,6 +383,7 @@ BAFU mapping audit: {"bafu source exchange index": 32}</comment>
 BAFU mapping audit: {"bafu source exchange index": 33}</comment>
         <uncertainty>
           <lognormal meanValue="41.667" varianceWithPedigreeUncertainty="0.01791019061776975" mu="3.7297094486021916"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="2" geographicalCorrelation="3"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -367,6 +395,7 @@ BAFU mapping audit: {"bafu source exchange index": 33}</comment>
 BAFU mapping audit: {"bafu source exchange index": 34}</comment>
         <uncertainty>
           <lognormal meanValue="1.0" varianceWithPedigreeUncertainty="0.01791019061776975" mu="0.0"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="2" geographicalCorrelation="3"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -378,6 +407,7 @@ BAFU mapping audit: {"bafu source exchange index": 34}</comment>
 BAFU mapping audit: {"bafu source exchange index": 35}</comment>
         <uncertainty>
           <lognormal meanValue="1.0" varianceWithPedigreeUncertainty="0.01791019061776975" mu="0.0"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="2" geographicalCorrelation="3"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -389,6 +419,7 @@ BAFU mapping audit: {"bafu source exchange index": 35}</comment>
 BAFU mapping audit: {"bafu source exchange index": 36}</comment>
         <uncertainty>
           <lognormal meanValue="12269.0" varianceWithPedigreeUncertainty="0.14734002095482518" mu="9.414831034791183"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="3" reliability="4" geographicalCorrelation="2"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -400,6 +431,7 @@ BAFU mapping audit: {"bafu source exchange index": 36}</comment>
 BAFU mapping audit: {"bafu source exchange index": 37}</comment>
         <uncertainty>
           <lognormal meanValue="2264.9" varianceWithPedigreeUncertainty="0.14734002095482518" mu="7.725285886832114"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="3" reliability="4" geographicalCorrelation="2"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -411,6 +443,7 @@ BAFU mapping audit: {"bafu source exchange index": 37}</comment>
 BAFU mapping audit: {"bafu original biosphere": {"categories": ["natural resource", "land"], "name": "Occupation, traffic area, rail network, CH", "region": "CH", "unit": "square meter-year"}, "bafu source exchange index": 1}</comment>
         <uncertainty>
           <lognormal meanValue="4200.0" varianceWithPedigreeUncertainty="0.09050758468308946" mu="8.34283980427146"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="5" geographicalCorrelation="1"/>
         </uncertainty>
         <compartment subcompartmentId="3888cd5e-0072-5bc7-83c7-fba4bdfab174" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">natural resource</compartment>
@@ -426,6 +459,7 @@ BAFU mapping audit: {"bafu original biosphere": {"categories": ["natural resourc
 BAFU mapping audit: {"bafu original biosphere": {"categories": ["natural resource", "land"], "name": "Occupation, traffic area, rail/road embankment, CH", "region": "CH", "unit": "square meter-year"}, "bafu source exchange index": 2}</comment>
         <uncertainty>
           <lognormal meanValue="4020.0" varianceWithPedigreeUncertainty="0.09050758468308946" mu="8.299037181613066"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="5" geographicalCorrelation="1"/>
         </uncertainty>
         <compartment subcompartmentId="3888cd5e-0072-5bc7-83c7-fba4bdfab174" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">natural resource</compartment>
@@ -441,6 +475,7 @@ BAFU mapping audit: {"bafu original biosphere": {"categories": ["natural resourc
 BAFU mapping audit: {"bafu source exchange index": 3}</comment>
         <uncertainty>
           <lognormal meanValue="60.889" varianceWithPedigreeUncertainty="0.16952712751680393" mu="4.10905253442765"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="5" geographicalCorrelation="1"/>
         </uncertainty>
         <compartment subcompartmentId="3888cd5e-0072-5bc7-83c7-fba4bdfab174" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">natural resource</compartment>
@@ -456,6 +491,7 @@ BAFU mapping audit: {"bafu source exchange index": 3}</comment>
 BAFU mapping audit: {"bafu source exchange index": 4}</comment>
         <uncertainty>
           <lognormal meanValue="31.111" varianceWithPedigreeUncertainty="0.16952712751680393" mu="3.4375614543980815"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="5" geographicalCorrelation="1"/>
         </uncertainty>
         <compartment subcompartmentId="3888cd5e-0072-5bc7-83c7-fba4bdfab174" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">natural resource</compartment>
@@ -471,6 +507,7 @@ BAFU mapping audit: {"bafu source exchange index": 4}</comment>
 BAFU mapping audit: {"bafu source exchange index": 5}</comment>
         <uncertainty>
           <lognormal meanValue="29.778" varianceWithPedigreeUncertainty="0.16952712751680393" mu="3.3937698658333586"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="5" geographicalCorrelation="1"/>
         </uncertainty>
         <compartment subcompartmentId="3888cd5e-0072-5bc7-83c7-fba4bdfab174" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">natural resource</compartment>
@@ -482,7 +519,7 @@ BAFU mapping audit: {"bafu source exchange index": 5}</comment>
     <modellingAndValidation/>
     <administrativeInformation>
       <dataEntryBy personId="1be3fcfd-37fa-533c-8085-c8bc7778e22a" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Thomas Kaegi" personEmail="anonymised"/>
-      <dataGeneratorAndPublication personId="26c3a305-610e-5e1c-aa0d-e6f22ce0f69d" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Stefanie Conrad" personEmail="anonymised" isCopyrightProtected="true"/>
+      <dataGeneratorAndPublication personId="26c3a305-610e-5e1c-aa0d-e6f22ce0f69d" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Stefanie Conrad" personEmail="anonymised" isCopyrightProtected="true" publishedSourceId="423a9f0b-5a89-586b-8613-58da26e7b740" publishedSourceYear="2024" publishedSourceFirstAuthor=""/>
       <fileAttributes majorRelease="2026" minorRelease="0" majorRevision="1" minorRevision="0" defaultLanguage="en" contextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" fileGenerator="BAFU mapped EcoSpold 2 export" internalSchemaVersion="2.0.14">
         <contextName xml:lang="en">BAFU 2026 mapped export; local supporting UUIDs</contextName>
       </fileAttributes>

@@ -54,6 +54,7 @@ Uncertainty from pedigree matrix: (3, 3, 2, 2, 3, 3)
 BAFU mapping audit: {"bafu source exchange index": 1}</comment>
         <uncertainty>
           <lognormal meanValue="0.01" varianceWithPedigreeUncertainty="0.012014718139876637" mu="-4.605170185988091"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="2" reliability="3" geographicalCorrelation="2"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -65,6 +66,7 @@ Uncertainty from pedigree matrix: (3, 3, 2, 2, 3, 3)
 BAFU mapping audit: {"bafu source exchange index": 2}</comment>
         <uncertainty>
           <lognormal meanValue="0.15" varianceWithPedigreeUncertainty="0.012014718139876637" mu="-1.8971199848858813"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="2" reliability="3" geographicalCorrelation="2"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -76,6 +78,7 @@ Uncertainty from pedigree matrix: (3, 3, 2, 2, 3, 3)
 BAFU mapping audit: {"bafu source exchange index": 3}</comment>
         <uncertainty>
           <lognormal meanValue="0.3" varianceWithPedigreeUncertainty="0.012014718139876637" mu="-1.2039728043259361"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="2" reliability="3" geographicalCorrelation="2"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -87,6 +90,7 @@ Uncertainty from pedigree matrix: (3, 3, 2, 2, 3, 3)
 BAFU mapping audit: {"bafu source exchange index": 4}</comment>
         <uncertainty>
           <lognormal meanValue="0.645" varianceWithPedigreeUncertainty="0.012014718139876637" mu="-0.43850496218636453"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="2" reliability="3" geographicalCorrelation="2"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -98,6 +102,7 @@ Uncertainty from pedigree matrix: (3, 3, 2, 2, 3, 3)
 BAFU mapping audit: {"bafu source exchange index": 5}</comment>
         <uncertainty>
           <lognormal meanValue="0.01" varianceWithPedigreeUncertainty="0.012014718139876637" mu="-4.605170185988091"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="2" reliability="3" geographicalCorrelation="2"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -109,6 +114,7 @@ Uncertainty from pedigree matrix: (3, 3, 2, 2, 3, 3)
 BAFU mapping audit: {"bafu source exchange index": 6}</comment>
         <uncertainty>
           <lognormal meanValue="0.45" varianceWithPedigreeUncertainty="0.012014718139876637" mu="-0.7985076962177716"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="2" reliability="3" geographicalCorrelation="2"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -120,6 +126,7 @@ Uncertainty from pedigree matrix: (3, 3, 2, 2, 3, 3)
 BAFU mapping audit: {"bafu source exchange index": 7}</comment>
         <uncertainty>
           <lognormal meanValue="0.045" varianceWithPedigreeUncertainty="0.012014718139876637" mu="-3.101092789211817"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="2" reliability="3" geographicalCorrelation="2"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -131,6 +138,7 @@ Uncertainty from pedigree matrix: (3, 3, 2, 2, 3, 3)
 BAFU mapping audit: {"bafu source exchange index": 8}</comment>
         <uncertainty>
           <lognormal meanValue="0.15" varianceWithPedigreeUncertainty="0.012014718139876637" mu="-1.8971199848858813"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="2" reliability="3" geographicalCorrelation="2"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -142,6 +150,7 @@ Uncertainty from pedigree matrix: (3, 3, 2, 2, 3, 3)
 BAFU mapping audit: {"bafu source exchange index": 9}</comment>
         <uncertainty>
           <lognormal meanValue="0.45" varianceWithPedigreeUncertainty="0.012014718139876637" mu="-0.7985076962177716"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="2" reliability="3" geographicalCorrelation="2"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -153,6 +162,7 @@ Uncertainty from pedigree matrix: (3, 3, 2, 2, 3, 3)
 BAFU mapping audit: {"bafu source exchange index": 10}</comment>
         <uncertainty>
           <lognormal meanValue="0.45" varianceWithPedigreeUncertainty="0.012014718139876637" mu="-0.7985076962177716"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="2" reliability="3" geographicalCorrelation="2"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -164,6 +174,7 @@ Uncertainty from pedigree matrix: (3, 3, 2, 2, 3, 3)
 BAFU mapping audit: {"bafu source exchange index": 11}</comment>
         <uncertainty>
           <lognormal meanValue="0.459" varianceWithPedigreeUncertainty="0.012014718139876637" mu="-0.7787050689215919"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="2" reliability="3" geographicalCorrelation="2"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -175,6 +186,7 @@ Uncertainty from pedigree matrix: (3, 3, 2, 2, 3, 3)
 BAFU mapping audit: {"bafu source exchange index": 12}</comment>
         <uncertainty>
           <lognormal meanValue="0.14" varianceWithPedigreeUncertainty="0.012014718139876637" mu="-1.9661128563728327"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="2" reliability="3" geographicalCorrelation="2"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -186,6 +198,7 @@ Uncertainty from pedigree matrix: (3, 3, 2, 2, 3, 3)
 BAFU mapping audit: {"bafu original biosphere": {"categories": ["natural resource", "land"], "name": "Occupation, industrial area, vegetation", "unit": "square meter-year"}, "bafu source exchange index": 13}</comment>
         <uncertainty>
           <lognormal meanValue="0.0158" varianceWithPedigreeUncertainty="0.012014718139876637" mu="-4.147745338949216"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="2" reliability="3" geographicalCorrelation="2"/>
         </uncertainty>
         <compartment subcompartmentId="3888cd5e-0072-5bc7-83c7-fba4bdfab174" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">natural resource</compartment>
@@ -201,6 +214,7 @@ Uncertainty from pedigree matrix: (3, 3, 2, 2, 3, 3)
 BAFU mapping audit: {"bafu original biosphere": {"categories": ["natural resource", "land"], "name": "Transformation, to industrial area, vegetation", "unit": "square meter"}, "bafu source exchange index": 14}</comment>
         <uncertainty>
           <lognormal meanValue="0.0158" varianceWithPedigreeUncertainty="0.012014718139876637" mu="-4.147745338949216"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="2" reliability="3" geographicalCorrelation="2"/>
         </uncertainty>
         <compartment subcompartmentId="3888cd5e-0072-5bc7-83c7-fba4bdfab174" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">natural resource</compartment>
@@ -216,6 +230,7 @@ Uncertainty from pedigree matrix: (3, 3, 2, 2, 3, 3)
 BAFU mapping audit: {"bafu source exchange index": 15}</comment>
         <uncertainty>
           <lognormal meanValue="0.000695" varianceWithPedigreeUncertainty="0.012014718139876637" mu="-7.271598712399482"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="2" reliability="3" geographicalCorrelation="2"/>
         </uncertainty>
         <compartment subcompartmentId="ae9e443b-f820-50cb-a3c8-035eb1da4783" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">air</compartment>
@@ -231,6 +246,7 @@ Uncertainty from pedigree matrix: (3, 3, 2, 2, 3, 3)
 BAFU mapping audit: {"bafu source exchange index": 16}</comment>
         <uncertainty>
           <lognormal meanValue="1.18e-06" varianceWithPedigreeUncertainty="0.012014718139876637" mu="-13.649996119486701"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="2" reliability="3" geographicalCorrelation="2"/>
         </uncertainty>
         <compartment subcompartmentId="ae9e443b-f820-50cb-a3c8-035eb1da4783" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">air</compartment>
@@ -246,6 +262,7 @@ Uncertainty from pedigree matrix: (3, 3, 2, 2, 3, 3)
 BAFU mapping audit: {"bafu source exchange index": 17}</comment>
         <uncertainty>
           <lognormal meanValue="0.000553" varianceWithPedigreeUncertainty="0.012014718139876637" mu="-7.50015255644194"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="2" reliability="3" geographicalCorrelation="2"/>
         </uncertainty>
         <compartment subcompartmentId="ae9e443b-f820-50cb-a3c8-035eb1da4783" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">air</compartment>
@@ -261,6 +278,7 @@ Uncertainty from pedigree matrix: (3, 3, 2, 2, 3, 3)
 BAFU mapping audit: {"bafu source exchange index": 18}</comment>
         <uncertainty>
           <lognormal meanValue="0.00856" varianceWithPedigreeUncertainty="0.012014718139876637" mu="-4.760655088828487"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="2" reliability="3" geographicalCorrelation="2"/>
         </uncertainty>
         <compartment subcompartmentId="ae9e443b-f820-50cb-a3c8-035eb1da4783" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">air</compartment>
@@ -276,6 +294,7 @@ Uncertainty from pedigree matrix: (3, 3, 2, 2, 3, 3)
 BAFU mapping audit: {"bafu source exchange index": 19}</comment>
         <uncertainty>
           <lognormal meanValue="0.00727" varianceWithPedigreeUncertainty="0.012014718139876637" mu="-4.923998987436709"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="2" reliability="3" geographicalCorrelation="2"/>
         </uncertainty>
         <compartment subcompartmentId="ae9e443b-f820-50cb-a3c8-035eb1da4783" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">air</compartment>
@@ -291,6 +310,7 @@ Uncertainty from pedigree matrix: (3, 3, 2, 2, 3, 3)
 BAFU mapping audit: {"bafu source exchange index": 20}</comment>
         <uncertainty>
           <lognormal meanValue="2.46" varianceWithPedigreeUncertainty="0.012014718139876637" mu="0.9001613499442714"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="2" reliability="3" geographicalCorrelation="2"/>
         </uncertainty>
         <compartment subcompartmentId="ae9e443b-f820-50cb-a3c8-035eb1da4783" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">air</compartment>
@@ -306,6 +326,7 @@ Uncertainty from pedigree matrix: (3, 3, 2, 2, 3, 3)
 BAFU mapping audit: {"bafu source exchange index": 21}</comment>
         <uncertainty>
           <lognormal meanValue="0.00708" varianceWithPedigreeUncertainty="0.012014718139876637" mu="-4.950481371276509"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="2" reliability="3" geographicalCorrelation="2"/>
         </uncertainty>
         <compartment subcompartmentId="ae9e443b-f820-50cb-a3c8-035eb1da4783" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">air</compartment>
@@ -321,6 +342,7 @@ Uncertainty from pedigree matrix: (3, 3, 2, 2, 3, 3)
 BAFU mapping audit: {"bafu source exchange index": 22}</comment>
         <uncertainty>
           <lognormal meanValue="4.58e-06" varianceWithPedigreeUncertainty="0.012014718139876637" mu="-12.293811559838181"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="2" reliability="3" geographicalCorrelation="2"/>
         </uncertainty>
         <compartment subcompartmentId="d1626126-18fd-5436-bc1d-f41bb5c4108d" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">water</compartment>
@@ -336,6 +358,7 @@ Uncertainty from pedigree matrix: (3, 3, 2, 2, 3, 3)
 BAFU mapping audit: {"bafu source exchange index": 23}</comment>
         <uncertainty>
           <lognormal meanValue="0.000223" varianceWithPedigreeUncertainty="0.012014718139876637" mu="-8.408338786504155"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="2" reliability="3" geographicalCorrelation="2"/>
         </uncertainty>
         <compartment subcompartmentId="d1626126-18fd-5436-bc1d-f41bb5c4108d" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">water</compartment>
@@ -351,6 +374,7 @@ Uncertainty from pedigree matrix: (3, 3, 2, 2, 3, 3)
 BAFU mapping audit: {"bafu source exchange index": 24}</comment>
         <uncertainty>
           <lognormal meanValue="0.000129" varianceWithPedigreeUncertainty="0.012014718139876637" mu="-8.955698153602603"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="2" reliability="3" geographicalCorrelation="2"/>
         </uncertainty>
         <compartment subcompartmentId="d1626126-18fd-5436-bc1d-f41bb5c4108d" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">water</compartment>
@@ -362,7 +386,7 @@ BAFU mapping audit: {"bafu source exchange index": 24}</comment>
     <modellingAndValidation/>
     <administrativeInformation>
       <dataEntryBy personId="a3700465-69bf-59e6-ac5e-ad646f262240" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Julien McTighe" personEmail="anonymised"/>
-      <dataGeneratorAndPublication personId="1426216e-3338-5592-ad7a-3abe3eb8a28a" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Romain Sacchi" personEmail="anonymised" isCopyrightProtected="false"/>
+      <dataGeneratorAndPublication personId="1426216e-3338-5592-ad7a-3abe3eb8a28a" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Romain Sacchi" personEmail="anonymised" isCopyrightProtected="false" publishedSourceId="53199262-1c19-53c6-a329-d05da1d28eca" publishedSourceYear="2023" publishedSourceFirstAuthor=""/>
       <fileAttributes majorRelease="2026" minorRelease="0" majorRevision="1" minorRevision="0" defaultLanguage="en" contextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" fileGenerator="BAFU mapped EcoSpold 2 export" internalSchemaVersion="2.0.14">
         <contextName xml:lang="en">BAFU 2026 mapped export; local supporting UUIDs</contextName>
       </fileAttributes>

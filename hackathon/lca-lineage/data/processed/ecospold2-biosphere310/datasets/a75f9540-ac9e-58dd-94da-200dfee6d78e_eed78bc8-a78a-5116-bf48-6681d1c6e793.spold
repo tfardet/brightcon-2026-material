@@ -60,6 +60,7 @@ BAFU mapping audit: {"bafu source exchange index": 0}</comment>
 BAFU mapping audit: {"bafu source exchange index": 1}</comment>
         <uncertainty>
           <lognormal meanValue="5.56e-09" varianceWithPedigreeUncertainty="0.3027442181948509" mu="-19.00766772868392"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="2" temporalCorrelation="2" reliability="2" geographicalCorrelation="1"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -71,6 +72,7 @@ BAFU mapping audit: {"bafu source exchange index": 1}</comment>
 BAFU mapping audit: {"bafu source exchange index": 2}</comment>
         <uncertainty>
           <lognormal meanValue="0.000916" varianceWithPedigreeUncertainty="0.0016041724863819283" mu="-6.995494193290144"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="2" temporalCorrelation="2" reliability="2" geographicalCorrelation="1"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -82,6 +84,7 @@ BAFU mapping audit: {"bafu source exchange index": 2}</comment>
 BAFU mapping audit: {"bafu source exchange index": 3}</comment>
         <uncertainty>
           <lognormal meanValue="0.0182" varianceWithPedigreeUncertainty="0.12111895877974482" mu="-4.006333684899388"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="2" temporalCorrelation="2" reliability="2" geographicalCorrelation="1"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -93,6 +96,7 @@ BAFU mapping audit: {"bafu source exchange index": 3}</comment>
 BAFU mapping audit: {"bafu source exchange index": 4}</comment>
         <uncertainty>
           <lognormal meanValue="0.00816" varianceWithPedigreeUncertainty="0.12308198230812722" mu="-4.808511110006122"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="3" reliability="2" geographicalCorrelation="1"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -104,6 +108,7 @@ BAFU mapping audit: {"bafu source exchange index": 4}</comment>
 BAFU mapping audit: {"bafu source exchange index": 5}</comment>
         <uncertainty>
           <lognormal meanValue="0.0015400000000000001" varianceWithPedigreeUncertainty="0.12308198230812722" mu="-6.475972862556599"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="3" reliability="2" geographicalCorrelation="1"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -115,6 +120,7 @@ BAFU mapping audit: {"bafu source exchange index": 5}</comment>
 BAFU mapping audit: {"bafu source exchange index": 6}</comment>
         <uncertainty>
           <lognormal meanValue="0.0009599999999999999" varianceWithPedigreeUncertainty="0.12308198230812722" mu="-6.9485772735023925"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="3" reliability="2" geographicalCorrelation="1"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -126,6 +132,7 @@ BAFU mapping audit: {"bafu source exchange index": 6}</comment>
 BAFU mapping audit: {"bafu source exchange index": 7}</comment>
         <uncertainty>
           <lognormal meanValue="5.8678" varianceWithPedigreeUncertainty="0.0012874593016206036" mu="1.7694797765369736"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="2" geographicalCorrelation="1"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -137,10 +144,11 @@ BAFU mapping audit: {"bafu source exchange index": 7}</comment>
 BAFU mapping audit: {"bafu source exchange index": 18}</comment>
         <uncertainty>
           <lognormal meanValue="0.03" varianceWithPedigreeUncertainty="0.011768398590826405" mu="-3.506557897319982"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="3" reliability="2" geographicalCorrelation="1"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
-      <elementaryExchange id="232ffe7b-3d54-5ddb-a812-a6439237df6a" amount="0.00287" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" elementaryExchangeId="349b29d1-3e58-4c66-98b9-9d1a076efd2e">
+      <elementaryExchange id="232ffe7b-3d54-5ddb-a812-a6439237df6a" amount="0.00287" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" elementaryExchangeId="349b29d1-3e58-4c66-98b9-9d1a076efd2e" sourceFirstAuthor="Burgdorf" sourceYear="2023" sourceId="a990da47-3165-5c0c-9857-85ae63120965">
         <name xml:lang="en">Carbon dioxide, fossil</name>
         <unitName xml:lang="en">kilogram</unitName>
         <comment xml:lang="en">Full flow name: Carbon dioxide, fossil
@@ -148,6 +156,7 @@ BAFU mapping audit: {"bafu source exchange index": 18}</comment>
 BAFU mapping audit: {"bafu source exchange index": 8}</comment>
         <uncertainty>
           <lognormal meanValue="0.00287" varianceWithPedigreeUncertainty="0.009497347634381259" mu="-5.853443249210607"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="2" geographicalCorrelation="1"/>
         </uncertainty>
         <compartment subcompartmentId="ae9e443b-f820-50cb-a3c8-035eb1da4783" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">air</compartment>
@@ -155,7 +164,7 @@ BAFU mapping audit: {"bafu source exchange index": 8}</comment>
         </compartment>
         <outputGroup>4</outputGroup>
       </elementaryExchange>
-      <elementaryExchange id="b37b8e0d-b55c-5b0a-ab65-32aa562aea70" amount="1.7e-05" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" elementaryExchangeId="ba2f3f82-c93a-47a5-822a-37ec97495275">
+      <elementaryExchange id="b37b8e0d-b55c-5b0a-ab65-32aa562aea70" amount="1.7e-05" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" elementaryExchangeId="ba2f3f82-c93a-47a5-822a-37ec97495275" sourceFirstAuthor="Burgdorf" sourceYear="2023" sourceId="a990da47-3165-5c0c-9857-85ae63120965">
         <name xml:lang="en">Carbon monoxide, fossil</name>
         <unitName xml:lang="en">kilogram</unitName>
         <comment xml:lang="en">Full flow name: Carbon monoxide, fossil
@@ -163,6 +172,7 @@ BAFU mapping audit: {"bafu source exchange index": 8}</comment>
 BAFU mapping audit: {"bafu source exchange index": 9}</comment>
         <uncertainty>
           <lognormal meanValue="1.7e-05" varianceWithPedigreeUncertainty="0.6564702051298249" mu="-10.982297213908058"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="2" geographicalCorrelation="1"/>
         </uncertainty>
         <compartment subcompartmentId="ae9e443b-f820-50cb-a3c8-035eb1da4783" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">air</compartment>
@@ -170,7 +180,7 @@ BAFU mapping audit: {"bafu source exchange index": 9}</comment>
         </compartment>
         <outputGroup>4</outputGroup>
       </elementaryExchange>
-      <elementaryExchange id="ee4c0b7f-6832-54af-b54d-3e4e4971831c" amount="1.39e-06" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" elementaryExchangeId="d3260d0e-8203-4cbb-a45a-6a13131a5108">
+      <elementaryExchange id="ee4c0b7f-6832-54af-b54d-3e4e4971831c" amount="1.39e-06" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" elementaryExchangeId="d3260d0e-8203-4cbb-a45a-6a13131a5108" sourceFirstAuthor="Burgdorf" sourceYear="2023" sourceId="a990da47-3165-5c0c-9857-85ae63120965">
         <name xml:lang="en">NMVOC, non-methane volatile organic compounds</name>
         <unitName xml:lang="en">kilogram</unitName>
         <comment xml:lang="en">Full flow name: NMVOC, non-methane volatile organic compounds
@@ -178,6 +188,7 @@ BAFU mapping audit: {"bafu source exchange index": 9}</comment>
 BAFU mapping audit: {"bafu source exchange index": 11}</comment>
         <uncertainty>
           <lognormal meanValue="1.39e-06" varianceWithPedigreeUncertainty="0.050007389722601395" mu="-13.486206810821674"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="2" geographicalCorrelation="1"/>
         </uncertainty>
         <compartment subcompartmentId="ae9e443b-f820-50cb-a3c8-035eb1da4783" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">air</compartment>
@@ -185,7 +196,7 @@ BAFU mapping audit: {"bafu source exchange index": 11}</comment>
         </compartment>
         <outputGroup>4</outputGroup>
       </elementaryExchange>
-      <elementaryExchange id="c17f1efb-9f7b-5bd1-b56b-55448edc4b67" amount="2.22e-07" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" elementaryExchangeId="b967e1bf-f09b-4c89-8740-ace21db47bba">
+      <elementaryExchange id="c17f1efb-9f7b-5bd1-b56b-55448edc4b67" amount="2.22e-07" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" elementaryExchangeId="b967e1bf-f09b-4c89-8740-ace21db47bba" sourceFirstAuthor="Burgdorf" sourceYear="2023" sourceId="a990da47-3165-5c0c-9857-85ae63120965">
         <name xml:lang="en">Particulate Matter, &gt; 2.5 um and &lt; 10um</name>
         <unitName xml:lang="en">kilogram</unitName>
         <comment xml:lang="en">Full flow name: Particulate Matter, &gt; 2.5 um and &lt; 10um
@@ -193,6 +204,7 @@ BAFU mapping audit: {"bafu source exchange index": 11}</comment>
 BAFU mapping audit: {"bafu source exchange index": 12}</comment>
         <uncertainty>
           <lognormal meanValue="2.22e-07" varianceWithPedigreeUncertainty="0.12901610361157342" mu="-15.320588455074132"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="2" geographicalCorrelation="1"/>
         </uncertainty>
         <compartment subcompartmentId="ae9e443b-f820-50cb-a3c8-035eb1da4783" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">air</compartment>
@@ -200,7 +212,7 @@ BAFU mapping audit: {"bafu source exchange index": 12}</comment>
         </compartment>
         <outputGroup>4</outputGroup>
       </elementaryExchange>
-      <elementaryExchange id="174defd8-9609-5556-b90d-3112b8a93ee7" amount="1.5800000000000003e-08" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" elementaryExchangeId="0795345f-c7ae-410c-ad25-1845784c75f5">
+      <elementaryExchange id="174defd8-9609-5556-b90d-3112b8a93ee7" amount="1.5800000000000003e-08" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" elementaryExchangeId="0795345f-c7ae-410c-ad25-1845784c75f5" sourceFirstAuthor="Burgdorf" sourceYear="2023" sourceId="a990da47-3165-5c0c-9857-85ae63120965">
         <name xml:lang="en">Methane, fossil</name>
         <unitName xml:lang="en">kilogram</unitName>
         <comment xml:lang="en">Full flow name: Methane, fossil
@@ -208,6 +220,7 @@ BAFU mapping audit: {"bafu source exchange index": 12}</comment>
 BAFU mapping audit: {"bafu source exchange index": 13}</comment>
         <uncertainty>
           <lognormal meanValue="1.5800000000000003e-08" varianceWithPedigreeUncertainty="0.050007389722601395" mu="-17.96325589691349"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="2" geographicalCorrelation="1"/>
         </uncertainty>
         <compartment subcompartmentId="ae9e443b-f820-50cb-a3c8-035eb1da4783" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">air</compartment>
@@ -215,7 +228,7 @@ BAFU mapping audit: {"bafu source exchange index": 13}</comment>
         </compartment>
         <outputGroup>4</outputGroup>
       </elementaryExchange>
-      <elementaryExchange id="808ef119-3f16-5e9b-8f05-9ccb3dc03e63" amount="1.05e-08" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" elementaryExchangeId="87883a4e-1e3e-4c9d-90c0-f1bea36f8014">
+      <elementaryExchange id="808ef119-3f16-5e9b-8f05-9ccb3dc03e63" amount="1.05e-08" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" elementaryExchangeId="87883a4e-1e3e-4c9d-90c0-f1bea36f8014" sourceFirstAuthor="Burgdorf" sourceYear="2023" sourceId="a990da47-3165-5c0c-9857-85ae63120965">
         <name xml:lang="en">Ammonia</name>
         <unitName xml:lang="en">kilogram</unitName>
         <comment xml:lang="en">Full flow name: Ammonia
@@ -223,6 +236,7 @@ BAFU mapping audit: {"bafu source exchange index": 13}</comment>
 BAFU mapping audit: {"bafu source exchange index": 14}</comment>
         <uncertainty>
           <lognormal meanValue="1.05e-08" varianceWithPedigreeUncertainty="0.017218843841723876" mu="-18.371890579782935"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="2" geographicalCorrelation="1"/>
         </uncertainty>
         <compartment subcompartmentId="ae9e443b-f820-50cb-a3c8-035eb1da4783" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">air</compartment>
@@ -230,7 +244,7 @@ BAFU mapping audit: {"bafu source exchange index": 14}</comment>
         </compartment>
         <outputGroup>4</outputGroup>
       </elementaryExchange>
-      <elementaryExchange id="94fe44f5-2ff1-5c6c-8f11-069514b687e5" amount="1.84e-07" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" elementaryExchangeId="20185046-64bb-4c09-a8e7-e8a9e144ca98">
+      <elementaryExchange id="94fe44f5-2ff1-5c6c-8f11-069514b687e5" amount="1.84e-07" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" elementaryExchangeId="20185046-64bb-4c09-a8e7-e8a9e144ca98" sourceFirstAuthor="Burgdorf" sourceYear="2023" sourceId="a990da47-3165-5c0c-9857-85ae63120965">
         <name xml:lang="en">Dinitrogen monoxide</name>
         <unitName xml:lang="en">kilogram</unitName>
         <comment xml:lang="en">Full flow name: Dinitrogen monoxide
@@ -238,6 +252,7 @@ BAFU mapping audit: {"bafu source exchange index": 14}</comment>
 BAFU mapping audit: {"bafu source exchange index": 15}</comment>
         <uncertainty>
           <lognormal meanValue="1.84e-07" varianceWithPedigreeUncertainty="0.050007389722601395" mu="-15.508330079337426"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="2" geographicalCorrelation="1"/>
         </uncertainty>
         <compartment subcompartmentId="ae9e443b-f820-50cb-a3c8-035eb1da4783" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">air</compartment>
@@ -245,7 +260,7 @@ BAFU mapping audit: {"bafu source exchange index": 15}</comment>
         </compartment>
         <outputGroup>4</outputGroup>
       </elementaryExchange>
-      <elementaryExchange id="79968d1f-5a88-54a6-9c83-fae43ef7aa51" amount="3.69e-05" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" elementaryExchangeId="c1b91234-6f24-417b-8309-46111d09c457">
+      <elementaryExchange id="79968d1f-5a88-54a6-9c83-fae43ef7aa51" amount="3.69e-05" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" elementaryExchangeId="c1b91234-6f24-417b-8309-46111d09c457" sourceFirstAuthor="Burgdorf" sourceYear="2023" sourceId="a990da47-3165-5c0c-9857-85ae63120965">
         <name xml:lang="en">Nitrogen oxides</name>
         <unitName xml:lang="en">kilogram</unitName>
         <comment xml:lang="en">Full flow name: Nitrogen oxides
@@ -253,6 +268,7 @@ BAFU mapping audit: {"bafu source exchange index": 15}</comment>
 BAFU mapping audit: {"bafu source exchange index": 16}</comment>
         <uncertainty>
           <lognormal meanValue="3.69e-05" varianceWithPedigreeUncertainty="0.050007389722601395" mu="-10.207299006917793"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="2" geographicalCorrelation="1"/>
         </uncertainty>
         <compartment subcompartmentId="ae9e443b-f820-50cb-a3c8-035eb1da4783" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">air</compartment>
@@ -264,7 +280,7 @@ BAFU mapping audit: {"bafu source exchange index": 16}</comment>
     <modellingAndValidation/>
     <administrativeInformation>
       <dataEntryBy personId="264a6215-4133-55cd-8b45-275974b186d2" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Thomas Pohl" personEmail="anonymised"/>
-      <dataGeneratorAndPublication personId="264a6215-4133-55cd-8b45-275974b186d2" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Thomas Pohl" personEmail="anonymised" isCopyrightProtected="true"/>
+      <dataGeneratorAndPublication personId="264a6215-4133-55cd-8b45-275974b186d2" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Thomas Pohl" personEmail="anonymised" isCopyrightProtected="true" publishedSourceId="f9e8cb11-e98d-5323-a323-6ddda94a0d84" publishedSourceYear="2025" publishedSourceFirstAuthor=""/>
       <fileAttributes majorRelease="2026" minorRelease="0" majorRevision="1" minorRevision="0" defaultLanguage="en" contextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" fileGenerator="BAFU mapped EcoSpold 2 export" internalSchemaVersion="2.0.14">
         <contextName xml:lang="en">BAFU 2026 mapped export; local supporting UUIDs</contextName>
       </fileAttributes>

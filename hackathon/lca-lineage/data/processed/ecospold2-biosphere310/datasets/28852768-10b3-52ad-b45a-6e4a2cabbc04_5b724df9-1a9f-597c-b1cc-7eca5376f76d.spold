@@ -1406,6 +1406,7 @@ BAFU mapping audit: {"bafu source exchange index": 93}</comment>
 BAFU mapping audit: {"bafu source exchange index": 94}</comment>
         <uncertainty>
           <lognormal meanValue="0.0044935" varianceWithPedigreeUncertainty="0.2134902758576689" mu="-5.405123370865846"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="5" temporalCorrelation="5" reliability="5" geographicalCorrelation="5"/>
         </uncertainty>
         <compartment subcompartmentId="d1626126-18fd-5436-bc1d-f41bb5c4108d" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">water</compartment>
@@ -1417,7 +1418,7 @@ BAFU mapping audit: {"bafu source exchange index": 94}</comment>
     <modellingAndValidation/>
     <administrativeInformation>
       <dataEntryBy personId="750e42b0-9b90-5edf-ad34-a355d4210c80" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Roberto Dones" personEmail="anonymised"/>
-      <dataGeneratorAndPublication personId="750e42b0-9b90-5edf-ad34-a355d4210c80" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Roberto Dones" personEmail="anonymised" isCopyrightProtected="true"/>
+      <dataGeneratorAndPublication personId="750e42b0-9b90-5edf-ad34-a355d4210c80" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Roberto Dones" personEmail="anonymised" isCopyrightProtected="true" publishedSourceId="f7818b0e-8d57-54fd-a6cc-c06c9c43ec38" publishedSourceYear="2012" publishedSourceFirstAuthor=""/>
       <fileAttributes majorRelease="2026" minorRelease="0" majorRevision="1" minorRevision="0" defaultLanguage="en" contextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" fileGenerator="BAFU mapped EcoSpold 2 export" internalSchemaVersion="2.0.14">
         <contextName xml:lang="en">BAFU 2026 mapped export; local supporting UUIDs</contextName>
       </fileAttributes>

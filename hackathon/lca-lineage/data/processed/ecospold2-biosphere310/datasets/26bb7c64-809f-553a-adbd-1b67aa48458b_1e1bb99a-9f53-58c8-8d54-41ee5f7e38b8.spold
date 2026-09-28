@@ -56,6 +56,7 @@ installation {5;5;5;5;5;None;3;}
 BAFU mapping audit: {"bafu source exchange index": 1}</comment>
         <uncertainty>
           <lognormal meanValue="19000.0" varianceWithPedigreeUncertainty="0.634819933815536" mu="9.852194258148577"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="5" temporalCorrelation="5" reliability="5" geographicalCorrelation="5"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -67,6 +68,7 @@ installation {5;5;5;5;5;None;3;}
 BAFU mapping audit: {"bafu source exchange index": 2}</comment>
         <uncertainty>
           <lognormal meanValue="1200.0" varianceWithPedigreeUncertainty="0.634819933815536" mu="7.090076835776092"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="5" temporalCorrelation="5" reliability="5" geographicalCorrelation="5"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -78,10 +80,11 @@ installation {5;5;5;5;5;None;3;}
 BAFU mapping audit: {"bafu source exchange index": 3}</comment>
         <uncertainty>
           <lognormal meanValue="120200.0" varianceWithPedigreeUncertainty="0.634819933815536" mu="11.696912301083245"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="5" temporalCorrelation="5" reliability="5" geographicalCorrelation="5"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
-      <intermediateExchange id="3660e6ea-6218-5896-bdfd-6d1875dc0d49" amount="45600.0" unitId="97a43c83-639b-5b25-b36e-39233e1b0540" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="f1a6f666-c9f0-545f-984c-e5c4d98c8645" intermediateExchangeId="b4dfedb6-8c2c-5bab-8526-5c7265a484eb" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
+      <intermediateExchange id="3660e6ea-6218-5896-bdfd-6d1875dc0d49" amount="45600.0" unitId="97a43c83-639b-5b25-b36e-39233e1b0540" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="f1a6f666-c9f0-545f-984c-e5c4d98c8645" intermediateExchangeId="b4dfedb6-8c2c-5bab-8526-5c7265a484eb" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" sourceFirstAuthor="" sourceYear="2280" sourceId="915923c9-f79d-59cb-9fdc-fe476024d5ed">
         <name xml:lang="en">Transport, freight, lorry, 16t-32t gross weight, fleet average</name>
         <unitName xml:lang="en">ton kilometer</unitName>
         <comment xml:lang="en">Full flow name: Transport, freight, lorry, 16t-32t gross weight, fleet average
@@ -100,6 +103,7 @@ installation {5;5;5;5;5;3;3;}
 BAFU mapping audit: {"bafu source exchange index": 5}</comment>
         <uncertainty>
           <lognormal meanValue="2280000.0" varianceWithPedigreeUncertainty="0.5152085608071342" mu="14.639686000930624"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="5" temporalCorrelation="5" reliability="5" geographicalCorrelation="5"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -107,7 +111,7 @@ BAFU mapping audit: {"bafu source exchange index": 5}</comment>
     <modellingAndValidation/>
     <administrativeInformation>
       <dataEntryBy personId="1426216e-3338-5592-ad7a-3abe3eb8a28a" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Romain Sacchi" personEmail="anonymised"/>
-      <dataGeneratorAndPublication personId="1426216e-3338-5592-ad7a-3abe3eb8a28a" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Romain Sacchi" personEmail="anonymised" isCopyrightProtected="true"/>
+      <dataGeneratorAndPublication personId="1426216e-3338-5592-ad7a-3abe3eb8a28a" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Romain Sacchi" personEmail="anonymised" isCopyrightProtected="true" publishedSourceId="b7e01900-ae5f-5ba1-abd8-2a32ea95a166" publishedSourceYear="2024" publishedSourceFirstAuthor=""/>
       <fileAttributes majorRelease="2026" minorRelease="0" majorRevision="1" minorRevision="0" defaultLanguage="en" contextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" fileGenerator="BAFU mapped EcoSpold 2 export" internalSchemaVersion="2.0.14">
         <contextName xml:lang="en">BAFU 2026 mapped export; local supporting UUIDs</contextName>
       </fileAttributes>

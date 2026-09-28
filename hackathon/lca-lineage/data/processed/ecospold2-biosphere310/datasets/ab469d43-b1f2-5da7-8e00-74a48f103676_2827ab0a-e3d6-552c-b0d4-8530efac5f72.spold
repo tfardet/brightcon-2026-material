@@ -508,7 +508,7 @@ BAFU mapping audit: {"bafu source exchange index": 39}</comment>
     <modellingAndValidation/>
     <administrativeInformation>
       <dataEntryBy personId="33328dba-94c2-5e6a-9ab2-cb4359ab1407" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Emil Franov" personEmail="anonymised"/>
-      <dataGeneratorAndPublication personId="33328dba-94c2-5e6a-9ab2-cb4359ab1407" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Emil Franov" personEmail="anonymised" isCopyrightProtected="true"/>
+      <dataGeneratorAndPublication personId="33328dba-94c2-5e6a-9ab2-cb4359ab1407" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Emil Franov" personEmail="anonymised" isCopyrightProtected="true" publishedSourceId="e821e29f-41ed-516f-b4fa-6870b0df9da2" publishedSourceYear="2017" publishedSourceFirstAuthor=""/>
       <fileAttributes majorRelease="2026" minorRelease="0" majorRevision="1" minorRevision="0" defaultLanguage="en" contextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" fileGenerator="BAFU mapped EcoSpold 2 export" internalSchemaVersion="2.0.14">
         <contextName xml:lang="en">BAFU 2026 mapped export; local supporting UUIDs</contextName>
       </fileAttributes>

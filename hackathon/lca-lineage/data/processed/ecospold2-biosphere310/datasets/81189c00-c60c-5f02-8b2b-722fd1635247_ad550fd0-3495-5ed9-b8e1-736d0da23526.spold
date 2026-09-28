@@ -1165,7 +1165,7 @@ BAFU mapping audit: {"bafu source exchange index": 71}</comment>
     <modellingAndValidation/>
     <administrativeInformation>
       <dataEntryBy personId="5b0d7db8-772a-5909-a765-07cdfe1426d8" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Gabor Doka" personEmail="anonymised"/>
-      <dataGeneratorAndPublication personId="5b0d7db8-772a-5909-a765-07cdfe1426d8" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Gabor Doka" personEmail="anonymised" isCopyrightProtected="true"/>
+      <dataGeneratorAndPublication personId="5b0d7db8-772a-5909-a765-07cdfe1426d8" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Gabor Doka" personEmail="anonymised" isCopyrightProtected="true" publishedSourceId="c735beb2-b368-59c7-8b55-c27fd8e47c2b" publishedSourceYear="2013" publishedSourceFirstAuthor=""/>
       <fileAttributes majorRelease="2026" minorRelease="0" majorRevision="1" minorRevision="0" defaultLanguage="en" contextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" fileGenerator="BAFU mapped EcoSpold 2 export" internalSchemaVersion="2.0.14">
         <contextName xml:lang="en">BAFU 2026 mapped export; local supporting UUIDs</contextName>
       </fileAttributes>

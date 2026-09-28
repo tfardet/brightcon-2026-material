@@ -1212,6 +1212,7 @@ BAFU mapping audit: {"bafu source exchange index": 67}</comment>
 BAFU mapping audit: {"bafu source exchange index": 68}</comment>
         <uncertainty>
           <lognormal meanValue="1.0453e-05" varianceWithPedigreeUncertainty="0.050867303595300756" mu="-11.468621539413704"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="4" reliability="2" geographicalCorrelation="2"/>
         </uncertainty>
         <compartment subcompartmentId="4715d9fb-1efc-5514-9bf6-f0bb4e5fab5f" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">air</compartment>
@@ -1836,6 +1837,7 @@ BAFU mapping audit: {"bafu source exchange index": 115}</comment>
 BAFU mapping audit: {"bafu source exchange index": 116}</comment>
         <uncertainty>
           <lognormal meanValue="0.00036506" varianceWithPedigreeUncertainty="0.6491814271159438" mu="-7.915448834329636"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="2" reliability="1" geographicalCorrelation="2"/>
         </uncertainty>
         <compartment subcompartmentId="4715d9fb-1efc-5514-9bf6-f0bb4e5fab5f" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">air</compartment>
@@ -1943,7 +1945,7 @@ BAFU mapping audit: {"bafu source exchange index": 124}</comment>
     <modellingAndValidation/>
     <administrativeInformation>
       <dataEntryBy personId="15487bbc-f107-5f59-b425-f7ae85f50b54" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Niels Jungbluth" personEmail="anonymised"/>
-      <dataGeneratorAndPublication personId="5b0d7db8-772a-5909-a765-07cdfe1426d8" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Gabor Doka" personEmail="anonymised" isCopyrightProtected="true"/>
+      <dataGeneratorAndPublication personId="5b0d7db8-772a-5909-a765-07cdfe1426d8" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Gabor Doka" personEmail="anonymised" isCopyrightProtected="true" publishedSourceId="868a38a2-1ce4-594b-92b6-3e3df5619f74" publishedSourceYear="2007" publishedSourceFirstAuthor=""/>
       <fileAttributes majorRelease="2026" minorRelease="0" majorRevision="1" minorRevision="0" defaultLanguage="en" contextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" fileGenerator="BAFU mapped EcoSpold 2 export" internalSchemaVersion="2.0.14">
         <contextName xml:lang="en">BAFU 2026 mapped export; local supporting UUIDs</contextName>
       </fileAttributes>

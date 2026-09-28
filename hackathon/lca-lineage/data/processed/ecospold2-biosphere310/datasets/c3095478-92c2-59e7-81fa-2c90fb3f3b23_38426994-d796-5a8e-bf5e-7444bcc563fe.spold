@@ -847,7 +847,7 @@ BAFU mapping audit: {"bafu source exchange index": 53}</comment>
         </compartment>
         <outputGroup>4</outputGroup>
       </elementaryExchange>
-      <elementaryExchange id="71e1187c-1c15-5964-bd7f-4b330c412e09" amount="4e-06" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" elementaryExchangeId="6dc1b46f-ee89-4495-95c4-b8a637bcd6cb">
+      <elementaryExchange id="71e1187c-1c15-5964-bd7f-4b330c412e09" amount="4e-06" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" elementaryExchangeId="6dc1b46f-ee89-4495-95c4-b8a637bcd6cb" sourceFirstAuthor="IPCC" sourceYear="2006" sourceId="a203e98d-b2e2-50b8-8b9e-55e865df9585">
         <name xml:lang="en">Dinitrogen monoxide</name>
         <unitName xml:lang="en">kilogram</unitName>
         <comment xml:lang="en">Full flow name: Dinitrogen monoxide
@@ -928,7 +928,7 @@ BAFU mapping audit: {"bafu source exchange index": 60}</comment>
     <modellingAndValidation/>
     <administrativeInformation>
       <dataEntryBy personId="170a13be-9107-5d84-9886-6fa5cf8bd2ef" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Christian Bauer" personEmail="anonymised"/>
-      <dataGeneratorAndPublication personId="170a13be-9107-5d84-9886-6fa5cf8bd2ef" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Christian Bauer" personEmail="anonymised" isCopyrightProtected="true"/>
+      <dataGeneratorAndPublication personId="170a13be-9107-5d84-9886-6fa5cf8bd2ef" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Christian Bauer" personEmail="anonymised" isCopyrightProtected="true" publishedSourceId="b6f4846d-f30a-5b08-a95b-0afa716b5bc8" publishedSourceYear="2007" publishedSourceFirstAuthor=""/>
       <fileAttributes majorRelease="2026" minorRelease="0" majorRevision="1" minorRevision="0" defaultLanguage="en" contextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" fileGenerator="BAFU mapped EcoSpold 2 export" internalSchemaVersion="2.0.14">
         <contextName xml:lang="en">BAFU 2026 mapped export; local supporting UUIDs</contextName>
       </fileAttributes>

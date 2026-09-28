@@ -669,7 +669,7 @@ Emissions from long-term leachate (&gt;100a) directly from construction waste la
 
 BAFU mapping audit: {"bafu source exchange index": 39}</comment>
         <uncertainty>
-          <lognormal meanValue="1.4996e-07" varianceWithPedigreeUncertainty="2.1623103241678887" mu="-15.7128972450787"/>
+          <lognormal meanValue="1.4996e-07" varianceWithPedigreeUncertainty="2.162310324167889" mu="-15.7128972450787"/>
         </uncertainty>
         <compartment subcompartmentId="1aa1246a-7dc4-5974-8a25-71c9b3d2d3aa" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">water</compartment>
@@ -889,7 +889,7 @@ BAFU mapping audit: {"bafu source exchange index": 55}</comment>
     <modellingAndValidation/>
     <administrativeInformation>
       <dataEntryBy personId="f5897155-f4e1-51c4-95b5-f1381fab26ac" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="default" personEmail="None"/>
-      <dataGeneratorAndPublication personId="f5897155-f4e1-51c4-95b5-f1381fab26ac" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="default" personEmail="None" isCopyrightProtected="true"/>
+      <dataGeneratorAndPublication personId="f5897155-f4e1-51c4-95b5-f1381fab26ac" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="default" personEmail="None" isCopyrightProtected="true" publishedSourceId="1713166c-29d0-5b24-beff-1a101c17fd3f" publishedSourceYear="2020" publishedSourceFirstAuthor=""/>
       <fileAttributes majorRelease="2026" minorRelease="0" majorRevision="1" minorRevision="0" defaultLanguage="en" contextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" fileGenerator="BAFU mapped EcoSpold 2 export" internalSchemaVersion="2.0.14">
         <contextName xml:lang="en">BAFU 2026 mapped export; local supporting UUIDs</contextName>
       </fileAttributes>

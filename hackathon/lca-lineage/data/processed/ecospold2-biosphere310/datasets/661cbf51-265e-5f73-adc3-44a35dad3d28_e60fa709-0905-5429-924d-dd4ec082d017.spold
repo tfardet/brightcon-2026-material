@@ -531,6 +531,7 @@ BAFU mapping audit: {"bafu source exchange index": 19}</comment>
 BAFU mapping audit: {"bafu source exchange index": 20}</comment>
         <uncertainty>
           <lognormal meanValue="6.3821e-06" varianceWithPedigreeUncertainty="0.050867303595300756" mu="-11.962013361161723"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="4" reliability="2" geographicalCorrelation="2"/>
         </uncertainty>
         <compartment subcompartmentId="4715d9fb-1efc-5514-9bf6-f0bb4e5fab5f" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">air</compartment>
@@ -723,6 +724,7 @@ BAFU mapping audit: {"bafu source exchange index": 32}</comment>
 BAFU mapping audit: {"bafu source exchange index": 33}</comment>
         <uncertainty>
           <lognormal meanValue="0.0002229" varianceWithPedigreeUncertainty="0.6491814271159438" mu="-8.40878731757245"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="2" reliability="1" geographicalCorrelation="2"/>
         </uncertainty>
         <compartment subcompartmentId="4715d9fb-1efc-5514-9bf6-f0bb4e5fab5f" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">air</compartment>
@@ -2014,7 +2016,7 @@ BAFU mapping audit: {"bafu source exchange index": 128}</comment>
     <modellingAndValidation/>
     <administrativeInformation>
       <dataEntryBy personId="7f8e4744-b463-57a1-8928-baef9d6b938f" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Philippe Stolz" personEmail="anonymised"/>
-      <dataGeneratorAndPublication personId="7f8e4744-b463-57a1-8928-baef9d6b938f" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Philippe Stolz" personEmail="anonymised" isCopyrightProtected="true"/>
+      <dataGeneratorAndPublication personId="7f8e4744-b463-57a1-8928-baef9d6b938f" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Philippe Stolz" personEmail="anonymised" isCopyrightProtected="true" publishedSourceId="efe19d30-5e25-50bd-b59c-c601be43212b" publishedSourceYear="2009" publishedSourceFirstAuthor=""/>
       <fileAttributes majorRelease="2026" minorRelease="0" majorRevision="1" minorRevision="0" defaultLanguage="en" contextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" fileGenerator="BAFU mapped EcoSpold 2 export" internalSchemaVersion="2.0.14">
         <contextName xml:lang="en">BAFU 2026 mapped export; local supporting UUIDs</contextName>
       </fileAttributes>

@@ -58,6 +58,7 @@ BAFU mapping audit: {"bafu source exchange index": 0}</comment>
 BAFU mapping audit: {"bafu source exchange index": 1}</comment>
         <uncertainty>
           <lognormal meanValue="0.1005" varianceWithPedigreeUncertainty="0.002405232390702248" mu="-2.2975975514830065"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="1" reliability="2" geographicalCorrelation="2"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -114,6 +115,7 @@ BAFU mapping audit: {"bafu source exchange index": 5}</comment>
 BAFU mapping audit: {"bafu source exchange index": 6}</comment>
         <uncertainty>
           <lognormal meanValue="0.485" varianceWithPedigreeUncertainty="0.12192336584033062" mu="-0.7236063880446539"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="1" reliability="2" geographicalCorrelation="2"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -159,6 +161,7 @@ BAFU mapping audit: {"bafu source exchange index": 9}</comment>
 BAFU mapping audit: {"bafu source exchange index": 10}</comment>
         <uncertainty>
           <lognormal meanValue="1.0" varianceWithPedigreeUncertainty="0.002405232390702248" mu="0.0"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="1" reliability="2" geographicalCorrelation="2"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -215,6 +218,7 @@ BAFU mapping audit: {"bafu source exchange index": 14}</comment>
 BAFU mapping audit: {"bafu source exchange index": 15}</comment>
         <uncertainty>
           <lognormal meanValue="0.04" varianceWithPedigreeUncertainty="0.011796287442387721" mu="-3.2188758248682006"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="5" temporalCorrelation="1" reliability="3" geographicalCorrelation="2"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -244,7 +248,7 @@ BAFU mapping audit: {"bafu source exchange index": 17}</comment>
     <modellingAndValidation/>
     <administrativeInformation>
       <dataEntryBy personId="3697d03c-9349-5790-b8ae-aee41e895dce" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Daniel Savi" personEmail="anonymised"/>
-      <dataGeneratorAndPublication personId="3697d03c-9349-5790-b8ae-aee41e895dce" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Daniel Savi" personEmail="anonymised" isCopyrightProtected="true"/>
+      <dataGeneratorAndPublication personId="3697d03c-9349-5790-b8ae-aee41e895dce" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Daniel Savi" personEmail="anonymised" isCopyrightProtected="true" publishedSourceId="89f4e222-005a-5f4e-9e56-57953aa62292" publishedSourceYear="2016" publishedSourceFirstAuthor=""/>
       <fileAttributes majorRelease="2026" minorRelease="0" majorRevision="1" minorRevision="0" defaultLanguage="en" contextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" fileGenerator="BAFU mapped EcoSpold 2 export" internalSchemaVersion="2.0.14">
         <contextName xml:lang="en">BAFU 2026 mapped export; local supporting UUIDs</contextName>
       </fileAttributes>

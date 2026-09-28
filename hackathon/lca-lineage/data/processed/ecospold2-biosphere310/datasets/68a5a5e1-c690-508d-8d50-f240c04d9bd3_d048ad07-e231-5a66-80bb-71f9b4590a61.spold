@@ -68,7 +68,7 @@ BAFU mapped export: unsupported biosphere exchanges excluded; see audit/. Local 
 BAFU mapping audit: {"bafu source exchange index": 0}</comment>
         <outputGroup>0</outputGroup>
       </intermediateExchange>
-      <intermediateExchange id="14190604-c664-538c-97c1-fb4dddc266ab" amount="1.4" unitId="ad3ccf08-e271-5e1c-8e72-c36b31eea981" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="fa89e6b6-4774-55ad-b6f2-b904441037d5" intermediateExchangeId="48067dfe-4074-5f1f-a1fc-e7af084ccae4" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
+      <intermediateExchange id="14190604-c664-538c-97c1-fb4dddc266ab" amount="1.4" unitId="ad3ccf08-e271-5e1c-8e72-c36b31eea981" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="fa89e6b6-4774-55ad-b6f2-b904441037d5" intermediateExchangeId="48067dfe-4074-5f1f-a1fc-e7af084ccae4" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" sourceFirstAuthor="" sourceYear="2022" sourceId="a24362bb-7c74-55ee-b388-b47cb65e0c06">
         <name xml:lang="en">Natural gas, burned in power plant or heat plant</name>
         <unitName xml:lang="en">megajoule</unitName>
         <comment xml:lang="en">Full flow name: Natural gas, burned in power plant or heat plant
@@ -83,7 +83,7 @@ BAFU mapping audit: {"bafu source exchange index": 1}</comment>
     <modellingAndValidation/>
     <administrativeInformation>
       <dataEntryBy personId="c0e3f1a3-5b04-5a6c-a88f-e50aa966222d" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Christopher Oberschelp" personEmail="anonymised"/>
-      <dataGeneratorAndPublication personId="c0e3f1a3-5b04-5a6c-a88f-e50aa966222d" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Christopher Oberschelp" personEmail="anonymised" isCopyrightProtected="false"/>
+      <dataGeneratorAndPublication personId="c0e3f1a3-5b04-5a6c-a88f-e50aa966222d" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Christopher Oberschelp" personEmail="anonymised" isCopyrightProtected="false" publishedSourceId="7c502fa0-d53a-58d7-b76d-c43624cfffb2" publishedSourceYear="2025" publishedSourceFirstAuthor=""/>
       <fileAttributes majorRelease="2026" minorRelease="0" majorRevision="1" minorRevision="0" defaultLanguage="en" contextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" fileGenerator="BAFU mapped EcoSpold 2 export" internalSchemaVersion="2.0.14">
         <contextName xml:lang="en">BAFU 2026 mapped export; local supporting UUIDs</contextName>
       </fileAttributes>

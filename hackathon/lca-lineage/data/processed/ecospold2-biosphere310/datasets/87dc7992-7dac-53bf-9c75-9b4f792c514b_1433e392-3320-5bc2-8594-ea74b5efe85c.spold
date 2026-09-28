@@ -236,7 +236,7 @@ burden from incineration of sludge from wastewater treatment of the short-term l
 
 BAFU mapping audit: {"bafu source exchange index": 53}</comment>
         <uncertainty>
-          <lognormal meanValue="2.69e-11" varianceWithPedigreeUncertainty="1.0323452527503063" mu="-24.338894829320754"/>
+          <lognormal meanValue="2.69e-11" varianceWithPedigreeUncertainty="1.0323452527503065" mu="-24.338894829320754"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -272,7 +272,7 @@ burden from incineration of sludge from wastewater treatment of the short-term l
 
 BAFU mapping audit: {"bafu source exchange index": 61}</comment>
         <uncertainty>
-          <lognormal meanValue="4.48e-11" varianceWithPedigreeUncertainty="1.0323452527503063" mu="-23.82881297650761"/>
+          <lognormal meanValue="4.48e-11" varianceWithPedigreeUncertainty="1.0323452527503065" mu="-23.82881297650761"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -574,7 +574,7 @@ burden from long-term decomposition of waste (&gt;100a). Uncertainty calculated 
 
 BAFU mapping audit: {"bafu source exchange index": 19}</comment>
         <uncertainty>
-          <lognormal meanValue="1.2" varianceWithPedigreeUncertainty="1.0323452527503063" mu="0.1823215567939546"/>
+          <lognormal meanValue="1.2" varianceWithPedigreeUncertainty="1.0323452527503065" mu="0.1823215567939546"/>
         </uncertainty>
         <compartment subcompartmentId="1aa1246a-7dc4-5974-8a25-71c9b3d2d3aa" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">water</compartment>
@@ -1274,7 +1274,7 @@ BAFU mapping audit: {"bafu source exchange index": 83}</comment>
     <modellingAndValidation/>
     <administrativeInformation>
       <dataEntryBy personId="88bf855e-b96a-5ba5-a3bf-2c64afacb90f" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Roland Hischier" personEmail="anonymised"/>
-      <dataGeneratorAndPublication personId="5b0d7db8-772a-5909-a765-07cdfe1426d8" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Gabor Doka" personEmail="anonymised" isCopyrightProtected="true"/>
+      <dataGeneratorAndPublication personId="5b0d7db8-772a-5909-a765-07cdfe1426d8" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Gabor Doka" personEmail="anonymised" isCopyrightProtected="true" publishedSourceId="efe19d30-5e25-50bd-b59c-c601be43212b" publishedSourceYear="2009" publishedSourceFirstAuthor=""/>
       <fileAttributes majorRelease="2026" minorRelease="0" majorRevision="1" minorRevision="0" defaultLanguage="en" contextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" fileGenerator="BAFU mapped EcoSpold 2 export" internalSchemaVersion="2.0.14">
         <contextName xml:lang="en">BAFU 2026 mapped export; local supporting UUIDs</contextName>
       </fileAttributes>

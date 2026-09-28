@@ -61,7 +61,7 @@ BAFU mapping audit: {"bafu source exchange index": 2}</comment>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
-      <intermediateExchange id="31f58f23-3382-594a-93a3-58195a9b83aa" amount="1.7e-05" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="1e2c1c00-b0fd-551f-9e67-22d4d62ee768" intermediateExchangeId="6bb05bba-e048-5e9d-a9b2-d0ae2960ba8f" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
+      <intermediateExchange id="31f58f23-3382-594a-93a3-58195a9b83aa" amount="1.7e-05" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="1e2c1c00-b0fd-551f-9e67-22d4d62ee768" intermediateExchangeId="6bb05bba-e048-5e9d-a9b2-d0ae2960ba8f" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" sourceFirstAuthor="Röder" sourceYear="2004" sourceId="783459da-273a-5534-bdfb-b73655f3d8b4">
         <name xml:lang="en">Light fuel oil, at regional storage</name>
         <unitName xml:lang="en">kilogram</unitName>
         <comment xml:lang="en">Full flow name: Light fuel oil, at regional storage
@@ -109,7 +109,7 @@ BAFU mapping audit: {"bafu source exchange index": 21}</comment>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
-      <intermediateExchange id="54224094-7a4f-5fab-8ce7-2451b425c9ac" amount="0.15" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="66b61efe-347c-53b3-a440-c2f50c40f092" intermediateExchangeId="373245f1-8e01-561e-98c1-ed844cabc9a0" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
+      <intermediateExchange id="54224094-7a4f-5fab-8ce7-2451b425c9ac" amount="0.15" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="66b61efe-347c-53b3-a440-c2f50c40f092" intermediateExchangeId="373245f1-8e01-561e-98c1-ed844cabc9a0" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" sourceFirstAuthor="Röder" sourceYear="2004" sourceId="783459da-273a-5534-bdfb-b73655f3d8b4">
         <name xml:lang="en">Water, decarbonised, at plant</name>
         <unitName xml:lang="en">kilogram</unitName>
         <comment xml:lang="en">Full flow name: Water, decarbonised, at plant
@@ -121,7 +121,7 @@ BAFU mapping audit: {"bafu source exchange index": 37}</comment>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
-      <intermediateExchange id="d2f9a101-61e7-5003-9457-5493ae129c09" amount="5e-06" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="826d09dc-1d19-59a4-bc48-9bf239360676" intermediateExchangeId="7ac9a0e8-7dab-5035-83db-4f5a023d544e" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
+      <intermediateExchange id="d2f9a101-61e7-5003-9457-5493ae129c09" amount="5e-06" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="826d09dc-1d19-59a4-bc48-9bf239360676" intermediateExchangeId="7ac9a0e8-7dab-5035-83db-4f5a023d544e" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" sourceFirstAuthor="Röder" sourceYear="2004" sourceId="783459da-273a-5534-bdfb-b73655f3d8b4">
         <name xml:lang="en">Disposal, residue from cooling tower, 30% water, to sanitary landfill</name>
         <unitName xml:lang="en">kilogram</unitName>
         <comment xml:lang="en">Full flow name: Disposal, residue from cooling tower, 30% water, to sanitary landfill
@@ -145,7 +145,7 @@ BAFU mapping audit: {"bafu source exchange index": 57}</comment>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
-      <intermediateExchange id="75c9a600-cb21-500f-b2f2-6526d1e36d83" amount="0.006" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="506b6443-f789-521d-b841-82db80804b6a" intermediateExchangeId="39a2d378-e977-55cf-b007-0af01eebe448" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
+      <intermediateExchange id="75c9a600-cb21-500f-b2f2-6526d1e36d83" amount="0.006" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="506b6443-f789-521d-b841-82db80804b6a" intermediateExchangeId="39a2d378-e977-55cf-b007-0af01eebe448" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" sourceFirstAuthor="Röder" sourceYear="2004" sourceId="783459da-273a-5534-bdfb-b73655f3d8b4">
         <name xml:lang="en">Water, completely softened, at plant</name>
         <unitName xml:lang="en">kilogram</unitName>
         <comment xml:lang="en">Full flow name: Water, completely softened, at plant
@@ -157,7 +157,7 @@ BAFU mapping audit: {"bafu source exchange index": 61}</comment>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
-      <intermediateExchange id="093e9f47-a74f-5e35-8d18-3742771aefc4" amount="1e-05" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="aeeff2c2-2330-56f9-b3f0-64fa3729faa3" intermediateExchangeId="c6461c2b-00b3-513c-960b-31c23ffffacf" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
+      <intermediateExchange id="093e9f47-a74f-5e35-8d18-3742771aefc4" amount="1e-05" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="aeeff2c2-2330-56f9-b3f0-64fa3729faa3" intermediateExchangeId="c6461c2b-00b3-513c-960b-31c23ffffacf" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" sourceFirstAuthor="Röder" sourceYear="2004" sourceId="783459da-273a-5534-bdfb-b73655f3d8b4">
         <name xml:lang="en">Chlorine, liquid, production mix, at plant</name>
         <unitName xml:lang="en">kilogram</unitName>
         <comment xml:lang="en">Full flow name: Chlorine, liquid, production mix, at plant
@@ -1289,7 +1289,7 @@ BAFU mapping audit: {"bafu source exchange index": 80}</comment>
         </compartment>
         <outputGroup>4</outputGroup>
       </elementaryExchange>
-      <elementaryExchange id="326752f3-e922-5b38-b341-600c53812b39" amount="0.0035" unitId="db3b2def-24b3-5d7e-a8b7-14695362b285" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" elementaryExchangeId="fc1c42ce-a759-49fa-b987-f1ec5e503db1">
+      <elementaryExchange id="326752f3-e922-5b38-b341-600c53812b39" amount="0.0035" unitId="db3b2def-24b3-5d7e-a8b7-14695362b285" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" elementaryExchangeId="fc1c42ce-a759-49fa-b987-f1ec5e503db1" sourceFirstAuthor="Röder" sourceYear="2004" sourceId="783459da-273a-5534-bdfb-b73655f3d8b4">
         <name xml:lang="en">Water, cooling, unspecified natural origin</name>
         <unitName xml:lang="en">cubic meter</unitName>
         <comment xml:lang="en">Full flow name: Water, cooling, unspecified natural origin
@@ -1313,6 +1313,7 @@ BAFU mapping audit: {"bafu source exchange index": 81}</comment>
 BAFU mapping audit: {"bafu source exchange index": 82}</comment>
         <uncertainty>
           <lognormal meanValue="0.0033250000000000003" varianceWithPedigreeUncertainty="0.2134902758576689" mu="-5.70628560487432"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="5" temporalCorrelation="5" reliability="5" geographicalCorrelation="5"/>
         </uncertainty>
         <compartment subcompartmentId="d1626126-18fd-5436-bc1d-f41bb5c4108d" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">water</compartment>
@@ -1324,7 +1325,7 @@ BAFU mapping audit: {"bafu source exchange index": 82}</comment>
     <modellingAndValidation/>
     <administrativeInformation>
       <dataEntryBy personId="170a13be-9107-5d84-9886-6fa5cf8bd2ef" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Christian Bauer" personEmail="anonymised"/>
-      <dataGeneratorAndPublication personId="170a13be-9107-5d84-9886-6fa5cf8bd2ef" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Christian Bauer" personEmail="anonymised" isCopyrightProtected="true"/>
+      <dataGeneratorAndPublication personId="170a13be-9107-5d84-9886-6fa5cf8bd2ef" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Christian Bauer" personEmail="anonymised" isCopyrightProtected="true" publishedSourceId="c9646ebe-8dde-54b4-9d50-8cb837f03614" publishedSourceYear="2007" publishedSourceFirstAuthor=""/>
       <fileAttributes majorRelease="2026" minorRelease="0" majorRevision="1" minorRevision="0" defaultLanguage="en" contextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" fileGenerator="BAFU mapped EcoSpold 2 export" internalSchemaVersion="2.0.14">
         <contextName xml:lang="en">BAFU 2026 mapped export; local supporting UUIDs</contextName>
       </fileAttributes>

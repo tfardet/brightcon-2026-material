@@ -58,6 +58,7 @@ BAFU mapping audit: {"bafu source exchange index": 0}</comment>
 BAFU mapping audit: {"bafu source exchange index": 1}</comment>
         <uncertainty>
           <lognormal meanValue="114.17" varianceWithPedigreeUncertainty="0.0030854718477934034" mu="4.737688565688236"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="2" reliability="1" geographicalCorrelation="1"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -65,7 +66,7 @@ BAFU mapping audit: {"bafu source exchange index": 1}</comment>
     <modellingAndValidation/>
     <administrativeInformation>
       <dataEntryBy personId="3d74c121-61c4-51c4-953c-dfce5ccdecd8" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Franziska Wyss" personEmail="anonymised"/>
-      <dataGeneratorAndPublication personId="3d74c121-61c4-51c4-953c-dfce5ccdecd8" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Franziska Wyss" personEmail="anonymised" isCopyrightProtected="true"/>
+      <dataGeneratorAndPublication personId="3d74c121-61c4-51c4-953c-dfce5ccdecd8" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Franziska Wyss" personEmail="anonymised" isCopyrightProtected="true" publishedSourceId="89f4e222-005a-5f4e-9e56-57953aa62292" publishedSourceYear="2016" publishedSourceFirstAuthor=""/>
       <fileAttributes majorRelease="2026" minorRelease="0" majorRevision="1" minorRevision="0" defaultLanguage="en" contextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" fileGenerator="BAFU mapped EcoSpold 2 export" internalSchemaVersion="2.0.14">
         <contextName xml:lang="en">BAFU 2026 mapped export; local supporting UUIDs</contextName>
       </fileAttributes>

@@ -48,7 +48,7 @@ BAFU mapped export: unsupported biosphere exchanges excluded; see audit/. Local 
 BAFU mapping audit: {"bafu source exchange index": 0}</comment>
         <outputGroup>0</outputGroup>
       </intermediateExchange>
-      <intermediateExchange id="a014e9eb-d596-5058-99a4-52fde9170a0c" amount="1.0" unitId="9ba25965-088d-5ba8-abf2-fecdc9749b3c" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="7c00f386-c8a2-5c69-9fce-72f49a58e8aa" intermediateExchangeId="7bf6bcf4-c971-52ad-869b-cee01a55044c" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
+      <intermediateExchange id="a014e9eb-d596-5058-99a4-52fde9170a0c" amount="1.0" unitId="9ba25965-088d-5ba8-abf2-fecdc9749b3c" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="7c00f386-c8a2-5c69-9fce-72f49a58e8aa" intermediateExchangeId="7bf6bcf4-c971-52ad-869b-cee01a55044c" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" sourceFirstAuthor="" sourceYear="2000" sourceId="49378600-c5c7-566b-a0f4-b18068b0f2ca">
         <name xml:lang="en">Sewer system, construction, GFRP pipe, SN 10000-20000, DN 800, profile 4</name>
         <unitName xml:lang="en">meter</unitName>
         <comment xml:lang="en">Full flow name: Sewer system, construction, GFRP pipe, SN 10000-20000, DN 800, profile 4
@@ -56,10 +56,11 @@ BAFU mapping audit: {"bafu source exchange index": 0}</comment>
 BAFU mapping audit: {"bafu source exchange index": 1}</comment>
         <uncertainty>
           <lognormal meanValue="1.0" varianceWithPedigreeUncertainty="0.3047027640425884" mu="0.0"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="2" temporalCorrelation="1" reliability="2" geographicalCorrelation="1"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
-      <intermediateExchange id="5dc6d987-c1de-5cee-a1c6-70ff71155cd7" amount="1.0" unitId="9ba25965-088d-5ba8-abf2-fecdc9749b3c" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="2194f5d0-8c9c-5a10-8156-863725b3888d" intermediateExchangeId="9cb198b7-7bdf-5bb0-acbe-edecf3d19620" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
+      <intermediateExchange id="5dc6d987-c1de-5cee-a1c6-70ff71155cd7" amount="1.0" unitId="9ba25965-088d-5ba8-abf2-fecdc9749b3c" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="2194f5d0-8c9c-5a10-8156-863725b3888d" intermediateExchangeId="9cb198b7-7bdf-5bb0-acbe-edecf3d19620" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" sourceFirstAuthor="" sourceYear="2000" sourceId="b2c18d32-11bb-57e2-8bde-7439158f27fc">
         <name xml:lang="en">Disposal, sewer system, GFRP pipe, SN 10000-20000, DN 800, profile 4</name>
         <unitName xml:lang="en">meter</unitName>
         <comment xml:lang="en">Full flow name: Disposal, sewer system, GFRP pipe, SN 10000-20000, DN 800, profile 4
@@ -67,6 +68,7 @@ BAFU mapping audit: {"bafu source exchange index": 1}</comment>
 BAFU mapping audit: {"bafu source exchange index": 2}</comment>
         <uncertainty>
           <lognormal meanValue="1.0" varianceWithPedigreeUncertainty="0.3108303484747677" mu="0.0"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="2" temporalCorrelation="1" reliability="2" geographicalCorrelation="1"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -74,7 +76,7 @@ BAFU mapping audit: {"bafu source exchange index": 2}</comment>
     <modellingAndValidation/>
     <administrativeInformation>
       <dataEntryBy personId="264a6215-4133-55cd-8b45-275974b186d2" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Thomas Pohl" personEmail="anonymised"/>
-      <dataGeneratorAndPublication personId="264a6215-4133-55cd-8b45-275974b186d2" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Thomas Pohl" personEmail="anonymised" isCopyrightProtected="true"/>
+      <dataGeneratorAndPublication personId="264a6215-4133-55cd-8b45-275974b186d2" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Thomas Pohl" personEmail="anonymised" isCopyrightProtected="true" publishedSourceId="f9e8cb11-e98d-5323-a323-6ddda94a0d84" publishedSourceYear="2025" publishedSourceFirstAuthor=""/>
       <fileAttributes majorRelease="2026" minorRelease="0" majorRevision="1" minorRevision="0" defaultLanguage="en" contextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" fileGenerator="BAFU mapped EcoSpold 2 export" internalSchemaVersion="2.0.14">
         <contextName xml:lang="en">BAFU 2026 mapped export; local supporting UUIDs</contextName>
       </fileAttributes>

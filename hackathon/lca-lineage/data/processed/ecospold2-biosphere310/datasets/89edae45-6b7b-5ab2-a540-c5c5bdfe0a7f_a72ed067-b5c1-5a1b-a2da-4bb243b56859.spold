@@ -1429,7 +1429,7 @@ Long-term emissions from landfilling of incineration residues. uncertainty is ca
 
 BAFU mapping audit: {"bafu source exchange index": 86}</comment>
         <uncertainty>
-          <lognormal meanValue="0.00065359" varianceWithPedigreeUncertainty="0.7999858312632183" mu="-7.333030314413127"/>
+          <lognormal meanValue="0.00065359" varianceWithPedigreeUncertainty="0.7999858312632185" mu="-7.333030314413127"/>
         </uncertainty>
         <compartment subcompartmentId="1aa1246a-7dc4-5974-8a25-71c9b3d2d3aa" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">water</compartment>
@@ -1541,7 +1541,7 @@ Long-term emissions from landfilling of incineration residues. uncertainty is ca
 
 BAFU mapping audit: {"bafu source exchange index": 94}</comment>
         <uncertainty>
-          <lognormal meanValue="7.1567e-05" varianceWithPedigreeUncertainty="1.005911348629824" mu="-9.544876484096642"/>
+          <lognormal meanValue="7.1567e-05" varianceWithPedigreeUncertainty="1.0059113486298235" mu="-9.544876484096642"/>
         </uncertainty>
         <compartment subcompartmentId="1aa1246a-7dc4-5974-8a25-71c9b3d2d3aa" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">water</compartment>
@@ -2097,7 +2097,7 @@ BAFU mapping audit: {"bafu source exchange index": 133}</comment>
     <modellingAndValidation/>
     <administrativeInformation>
       <dataEntryBy personId="5b0d7db8-772a-5909-a765-07cdfe1426d8" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Gabor Doka" personEmail="anonymised"/>
-      <dataGeneratorAndPublication personId="5b0d7db8-772a-5909-a765-07cdfe1426d8" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Gabor Doka" personEmail="anonymised" isCopyrightProtected="true"/>
+      <dataGeneratorAndPublication personId="5b0d7db8-772a-5909-a765-07cdfe1426d8" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Gabor Doka" personEmail="anonymised" isCopyrightProtected="true" publishedSourceId="c735beb2-b368-59c7-8b55-c27fd8e47c2b" publishedSourceYear="2013" publishedSourceFirstAuthor=""/>
       <fileAttributes majorRelease="2026" minorRelease="0" majorRevision="1" minorRevision="0" defaultLanguage="en" contextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" fileGenerator="BAFU mapped EcoSpold 2 export" internalSchemaVersion="2.0.14">
         <contextName xml:lang="en">BAFU 2026 mapped export; local supporting UUIDs</contextName>
       </fileAttributes>

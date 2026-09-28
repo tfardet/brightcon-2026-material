@@ -55,6 +55,7 @@ BAFU mapping audit: {"bafu source exchange index": 0}</comment>
 BAFU mapping audit: {"bafu source exchange index": 1}</comment>
         <uncertainty>
           <lognormal meanValue="0.0010457" varianceWithPedigreeUncertainty="0.05069499825711237" mu="-6.863068761359731"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="5" reliability="4" geographicalCorrelation="3"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -66,10 +67,11 @@ BAFU mapping audit: {"bafu source exchange index": 1}</comment>
 BAFU mapping audit: {"bafu source exchange index": 2}</comment>
         <uncertainty>
           <lognormal meanValue="1.0666e-09" varianceWithPedigreeUncertainty="0.3601595831181051" mu="-20.658789817762045"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="5" reliability="4" geographicalCorrelation="3"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
-      <intermediateExchange id="baa9753e-92cc-585c-a352-b2a2f338c4ac" amount="0.033292" unitId="ad3ccf08-e271-5e1c-8e72-c36b31eea981" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="9ed6ef36-f18d-5e3a-a7a1-2fa51e0560dd" intermediateExchangeId="461ab330-15b2-52f6-98d0-553b9f495e37" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
+      <intermediateExchange id="baa9753e-92cc-585c-a352-b2a2f338c4ac" amount="0.033292" unitId="ad3ccf08-e271-5e1c-8e72-c36b31eea981" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="9ed6ef36-f18d-5e3a-a7a1-2fa51e0560dd" intermediateExchangeId="461ab330-15b2-52f6-98d0-553b9f495e37" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" sourceFirstAuthor="Eurostat" sourceYear="2024" sourceId="9646627a-c389-53bb-a730-c57bf49bb778">
         <name xml:lang="en">Natural gas, production RU, at long-distance pipeline</name>
         <unitName xml:lang="en">megajoule</unitName>
         <comment xml:lang="en">Full flow name: Natural gas, production RU, at long-distance pipeline
@@ -77,10 +79,11 @@ BAFU mapping audit: {"bafu source exchange index": 2}</comment>
 BAFU mapping audit: {"bafu source exchange index": 3}</comment>
         <uncertainty>
           <lognormal meanValue="0.033292" varianceWithPedigreeUncertainty="0.008903594866166514" mu="-3.402438151098288"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="1" geographicalCorrelation="1"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
-      <intermediateExchange id="6c243df7-06cc-5908-8ab3-9b106d7ddebc" amount="0.01782" unitId="ad3ccf08-e271-5e1c-8e72-c36b31eea981" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="f483ab65-f1e0-55f5-889d-86a6250baf8e" intermediateExchangeId="4ee44395-f7b6-51a6-8dc6-f05dc1eaf348" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
+      <intermediateExchange id="6c243df7-06cc-5908-8ab3-9b106d7ddebc" amount="0.01782" unitId="ad3ccf08-e271-5e1c-8e72-c36b31eea981" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="f483ab65-f1e0-55f5-889d-86a6250baf8e" intermediateExchangeId="4ee44395-f7b6-51a6-8dc6-f05dc1eaf348" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" sourceFirstAuthor="Eurostat" sourceYear="2024" sourceId="9646627a-c389-53bb-a730-c57bf49bb778">
         <name xml:lang="en">Natural gas, production TM, at long-distance pipeline</name>
         <unitName xml:lang="en">megajoule</unitName>
         <comment xml:lang="en">Full flow name: Natural gas, production TM, at long-distance pipeline
@@ -88,10 +91,11 @@ BAFU mapping audit: {"bafu source exchange index": 3}</comment>
 BAFU mapping audit: {"bafu source exchange index": 4}</comment>
         <uncertainty>
           <lognormal meanValue="0.01782" varianceWithPedigreeUncertainty="0.008903594866166514" mu="-4.027433856939473"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="1" geographicalCorrelation="1"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
-      <intermediateExchange id="2d1c3df6-93c0-5d1b-a66a-afbd87125694" amount="0.94889" unitId="ad3ccf08-e271-5e1c-8e72-c36b31eea981" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="04213d85-9a7c-5fa8-98ae-cab6a37d9d0b" intermediateExchangeId="092ae3d0-e2e8-5f21-ab03-cec5e61bf7a2" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
+      <intermediateExchange id="2d1c3df6-93c0-5d1b-a66a-afbd87125694" amount="0.94889" unitId="ad3ccf08-e271-5e1c-8e72-c36b31eea981" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="04213d85-9a7c-5fa8-98ae-cab6a37d9d0b" intermediateExchangeId="092ae3d0-e2e8-5f21-ab03-cec5e61bf7a2" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" sourceFirstAuthor="Eurostat" sourceYear="2024" sourceId="9646627a-c389-53bb-a730-c57bf49bb778">
         <name xml:lang="en">Natural gas, production UZ, at long-distance pipeline</name>
         <unitName xml:lang="en">megajoule</unitName>
         <comment xml:lang="en">Full flow name: Natural gas, production UZ, at long-distance pipeline
@@ -99,6 +103,7 @@ BAFU mapping audit: {"bafu source exchange index": 4}</comment>
 BAFU mapping audit: {"bafu source exchange index": 5}</comment>
         <uncertainty>
           <lognormal meanValue="0.94889" varianceWithPedigreeUncertainty="0.008903594866166514" mu="-0.0524623985762391"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="1" geographicalCorrelation="1"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -110,6 +115,7 @@ BAFU mapping audit: {"bafu source exchange index": 5}</comment>
 BAFU mapping audit: {"bafu source exchange index": 6}</comment>
         <uncertainty>
           <lognormal meanValue="1.9255e-05" varianceWithPedigreeUncertainty="0.050594561042924376" mu="-10.857739790697401"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="4" reliability="2" geographicalCorrelation="1"/>
         </uncertainty>
         <compartment subcompartmentId="09cf6235-2645-535b-84a3-ec31dd135977" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">air</compartment>
@@ -125,6 +131,7 @@ BAFU mapping audit: {"bafu source exchange index": 6}</comment>
 BAFU mapping audit: {"bafu source exchange index": 7}</comment>
         <uncertainty>
           <lognormal meanValue="1.5948e-06" varianceWithPedigreeUncertainty="0.050594561042924376" mu="-13.34876222143921"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="4" reliability="2" geographicalCorrelation="1"/>
         </uncertainty>
         <compartment subcompartmentId="09cf6235-2645-535b-84a3-ec31dd135977" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">air</compartment>
@@ -140,6 +147,7 @@ BAFU mapping audit: {"bafu source exchange index": 7}</comment>
 BAFU mapping audit: {"bafu source exchange index": 8}</comment>
         <uncertainty>
           <lognormal meanValue="3.5882e-07" varianceWithPedigreeUncertainty="0.050594561042924376" mu="-14.840444966955173"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="4" reliability="2" geographicalCorrelation="1"/>
         </uncertainty>
         <compartment subcompartmentId="09cf6235-2645-535b-84a3-ec31dd135977" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">air</compartment>
@@ -155,6 +163,7 @@ BAFU mapping audit: {"bafu source exchange index": 8}</comment>
 BAFU mapping audit: {"bafu source exchange index": 9}</comment>
         <uncertainty>
           <lognormal meanValue="1.8451e-07" varianceWithPedigreeUncertainty="0.050594561042924376" mu="-15.50556217439262"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="4" reliability="2" geographicalCorrelation="1"/>
         </uncertainty>
         <compartment subcompartmentId="09cf6235-2645-535b-84a3-ec31dd135977" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">air</compartment>
@@ -170,6 +179,7 @@ BAFU mapping audit: {"bafu source exchange index": 9}</comment>
 BAFU mapping audit: {"bafu source exchange index": 10}</comment>
         <uncertainty>
           <lognormal meanValue="1.3286e-08" varianceWithPedigreeUncertainty="0.050594561042924376" mu="-18.136554987703363"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="4" reliability="2" geographicalCorrelation="1"/>
         </uncertainty>
         <compartment subcompartmentId="09cf6235-2645-535b-84a3-ec31dd135977" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">air</compartment>
@@ -185,6 +195,7 @@ BAFU mapping audit: {"bafu source exchange index": 10}</comment>
 BAFU mapping audit: {"bafu source exchange index": 11}</comment>
         <uncertainty>
           <lognormal meanValue="6.6606e-07" varianceWithPedigreeUncertainty="0.010098213833185972" mu="-14.2218860803738"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="4" reliability="2" geographicalCorrelation="1"/>
         </uncertainty>
         <compartment subcompartmentId="09cf6235-2645-535b-84a3-ec31dd135977" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">air</compartment>
@@ -196,7 +207,7 @@ BAFU mapping audit: {"bafu source exchange index": 11}</comment>
     <modellingAndValidation/>
     <administrativeInformation>
       <dataEntryBy personId="15b3f79a-ec50-5ae1-aa89-0f48ba4fb63b" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Maresa Bussa" personEmail="anonymised"/>
-      <dataGeneratorAndPublication personId="2c38e3e4-eebf-574c-820d-f534bb79c993" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Niels Jungbluth" personEmail="anonymised" isCopyrightProtected="true"/>
+      <dataGeneratorAndPublication personId="2c38e3e4-eebf-574c-820d-f534bb79c993" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Niels Jungbluth" personEmail="anonymised" isCopyrightProtected="true" publishedSourceId="a2d8c399-4106-5648-ad05-f935493edd9f" publishedSourceYear="2025" publishedSourceFirstAuthor=""/>
       <fileAttributes majorRelease="2026" minorRelease="0" majorRevision="1" minorRevision="0" defaultLanguage="en" contextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" fileGenerator="BAFU mapped EcoSpold 2 export" internalSchemaVersion="2.0.14">
         <contextName xml:lang="en">BAFU 2026 mapped export; local supporting UUIDs</contextName>
       </fileAttributes>

@@ -325,7 +325,7 @@ BAFU mapping audit: {"bafu source exchange index": 56}</comment>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
-      <elementaryExchange id="73213f35-2ae3-51b0-af7e-cee37b70fa95" amount="358.0" unitId="a688ac50-b87b-599e-934a-99e10066a45a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" elementaryExchangeId="48524bfc-be91-406e-986b-9550744e0360">
+      <elementaryExchange id="73213f35-2ae3-51b0-af7e-cee37b70fa95" amount="358.0" unitId="a688ac50-b87b-599e-934a-99e10066a45a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" elementaryExchangeId="48524bfc-be91-406e-986b-9550744e0360" sourceFirstAuthor="" sourceYear="2002" sourceId="440865ee-526c-5b29-82c4-d78684db03d2">
         <name xml:lang="en">Strontium-90</name>
         <unitName xml:lang="en">kilo Becquerel</unitName>
         <comment xml:lang="en">Full flow name: Strontium-90
@@ -437,7 +437,7 @@ BAFU mapping audit: {"bafu source exchange index": 16}</comment>
         </compartment>
         <outputGroup>4</outputGroup>
       </elementaryExchange>
-      <elementaryExchange id="035a110d-9996-50da-bbe3-7104c28badf9" amount="0.0153" unitId="a688ac50-b87b-599e-934a-99e10066a45a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" elementaryExchangeId="72958cbe-6609-46c2-bbfa-ee4ab826ca12">
+      <elementaryExchange id="035a110d-9996-50da-bbe3-7104c28badf9" amount="0.0153" unitId="a688ac50-b87b-599e-934a-99e10066a45a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" elementaryExchangeId="72958cbe-6609-46c2-bbfa-ee4ab826ca12" sourceFirstAuthor="" sourceYear="2002" sourceId="ff234b8a-33fb-564a-b573-915e0f81a55c">
         <name xml:lang="en">Aerosols, radioactive, unspecified</name>
         <unitName xml:lang="en">kilo Becquerel</unitName>
         <comment xml:lang="en">Full flow name: Aerosols, radioactive, unspecified
@@ -565,7 +565,7 @@ BAFU mapping audit: {"bafu source exchange index": 27}</comment>
         </compartment>
         <outputGroup>4</outputGroup>
       </elementaryExchange>
-      <elementaryExchange id="a4116046-ba05-5de6-a66e-6162fd495d00" amount="17.3" unitId="a688ac50-b87b-599e-934a-99e10066a45a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" elementaryExchangeId="4649902d-edc5-4d34-ae55-59993fe732d9">
+      <elementaryExchange id="a4116046-ba05-5de6-a66e-6162fd495d00" amount="17.3" unitId="a688ac50-b87b-599e-934a-99e10066a45a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" elementaryExchangeId="4649902d-edc5-4d34-ae55-59993fe732d9" sourceFirstAuthor="" sourceYear="2002" sourceId="440865ee-526c-5b29-82c4-d78684db03d2">
         <name xml:lang="en">Iodine-129</name>
         <unitName xml:lang="en">kilo Becquerel</unitName>
         <comment xml:lang="en">Full flow name: Iodine-129
@@ -725,7 +725,7 @@ BAFU mapping audit: {"bafu source exchange index": 41}</comment>
         </compartment>
         <outputGroup>4</outputGroup>
       </elementaryExchange>
-      <elementaryExchange id="4924016f-2867-507c-a577-c4f3b1112805" amount="3220.0" unitId="a688ac50-b87b-599e-934a-99e10066a45a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" elementaryExchangeId="0097bf60-3729-40b6-94d0-06bd6146cfc2">
+      <elementaryExchange id="4924016f-2867-507c-a577-c4f3b1112805" amount="3220.0" unitId="a688ac50-b87b-599e-934a-99e10066a45a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" elementaryExchangeId="0097bf60-3729-40b6-94d0-06bd6146cfc2" sourceFirstAuthor="" sourceYear="2002" sourceId="440865ee-526c-5b29-82c4-d78684db03d2">
         <name xml:lang="en">Caesium-137</name>
         <unitName xml:lang="en">kilo Becquerel</unitName>
         <comment xml:lang="en">Full flow name: Caesium-137
@@ -857,7 +857,7 @@ BAFU mapping audit: {"bafu source exchange index": 54}</comment>
     <modellingAndValidation/>
     <administrativeInformation>
       <dataEntryBy personId="750e42b0-9b90-5edf-ad34-a355d4210c80" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Roberto Dones" personEmail="anonymised"/>
-      <dataGeneratorAndPublication personId="750e42b0-9b90-5edf-ad34-a355d4210c80" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Roberto Dones" personEmail="anonymised" isCopyrightProtected="true"/>
+      <dataGeneratorAndPublication personId="750e42b0-9b90-5edf-ad34-a355d4210c80" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Roberto Dones" personEmail="anonymised" isCopyrightProtected="true" publishedSourceId="3b6856bb-32ad-57ac-8c94-49793dafeaa6" publishedSourceYear="2009" publishedSourceFirstAuthor=""/>
       <fileAttributes majorRelease="2026" minorRelease="0" majorRevision="1" minorRevision="0" defaultLanguage="en" contextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" fileGenerator="BAFU mapped EcoSpold 2 export" internalSchemaVersion="2.0.14">
         <contextName xml:lang="en">BAFU 2026 mapped export; local supporting UUIDs</contextName>
       </fileAttributes>

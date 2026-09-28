@@ -48,7 +48,7 @@ BAFU mapped export: unsupported biosphere exchanges excluded; see audit/. Local 
 BAFU mapping audit: {"bafu source exchange index": 0}</comment>
         <outputGroup>0</outputGroup>
       </intermediateExchange>
-      <intermediateExchange id="7ec79869-6550-5522-9a0a-2c2c1a9ece18" amount="0.33019" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="4e21f54b-d3b2-5ff3-8f4d-f89ff4b0e359" intermediateExchangeId="1b5ee055-231b-5ba1-8b24-04e3c7ffc44c" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
+      <intermediateExchange id="7ec79869-6550-5522-9a0a-2c2c1a9ece18" amount="0.33019" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="4e21f54b-d3b2-5ff3-8f4d-f89ff4b0e359" intermediateExchangeId="1b5ee055-231b-5ba1-8b24-04e3c7ffc44c" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" sourceFirstAuthor="" sourceYear="2020" sourceId="06dfd165-68cc-5ee3-b6f0-9d8486ad9b8a">
         <name xml:lang="en">Hard coal, at regional storage</name>
         <unitName xml:lang="en">kilogram</unitName>
         <comment xml:lang="en">Full flow name: Hard coal, at regional storage
@@ -56,10 +56,11 @@ BAFU mapping audit: {"bafu source exchange index": 0}</comment>
 BAFU mapping audit: {"bafu source exchange index": 1}</comment>
         <uncertainty>
           <lognormal meanValue="0.33019" varianceWithPedigreeUncertainty="0.0005951200299200359" mu="-1.1080870326306536"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="1" geographicalCorrelation="1"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
-      <intermediateExchange id="1ee37cb3-44e2-5088-b69b-4c8d4634650f" amount="0.57434" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="76325e86-7078-549b-8543-e30dec34f2df" intermediateExchangeId="1884715e-2d74-5bef-807d-f181a6fc5af1" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
+      <intermediateExchange id="1ee37cb3-44e2-5088-b69b-4c8d4634650f" amount="0.57434" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="76325e86-7078-549b-8543-e30dec34f2df" intermediateExchangeId="1884715e-2d74-5bef-807d-f181a6fc5af1" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" sourceFirstAuthor="" sourceYear="2020" sourceId="74bc9349-9c74-5bbe-b0f0-f7d9a1dc710a">
         <name xml:lang="en">Hard coal, at regional storage</name>
         <unitName xml:lang="en">kilogram</unitName>
         <comment xml:lang="en">Full flow name: Hard coal, at regional storage
@@ -67,10 +68,11 @@ BAFU mapping audit: {"bafu source exchange index": 1}</comment>
 BAFU mapping audit: {"bafu source exchange index": 2}</comment>
         <uncertainty>
           <lognormal meanValue="0.57434" varianceWithPedigreeUncertainty="0.0005951200299200359" mu="-0.5545337235286293"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="1" geographicalCorrelation="1"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
-      <intermediateExchange id="6fa13df6-e384-5627-b256-c3710a351086" amount="0.0201" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="76325e86-7078-549b-8543-e30dec34f2df" intermediateExchangeId="1884715e-2d74-5bef-807d-f181a6fc5af1" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
+      <intermediateExchange id="6fa13df6-e384-5627-b256-c3710a351086" amount="0.0201" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="76325e86-7078-549b-8543-e30dec34f2df" intermediateExchangeId="1884715e-2d74-5bef-807d-f181a6fc5af1" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" sourceFirstAuthor="" sourceYear="2020" sourceId="58af976f-f2c6-5a09-b599-3c60be2dd2ca">
         <name xml:lang="en">Hard coal, at regional storage</name>
         <unitName xml:lang="en">kilogram</unitName>
         <comment xml:lang="en">Full flow name: Hard coal, at regional storage
@@ -78,10 +80,11 @@ BAFU mapping audit: {"bafu source exchange index": 2}</comment>
 BAFU mapping audit: {"bafu source exchange index": 3}</comment>
         <uncertainty>
           <lognormal meanValue="0.0201" varianceWithPedigreeUncertainty="0.0005951200299200359" mu="-3.907035463917107"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="1" geographicalCorrelation="1"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
-      <intermediateExchange id="a5d49dc7-397a-5b63-b0c4-aeb7fe4da517" amount="0.075008" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="76325e86-7078-549b-8543-e30dec34f2df" intermediateExchangeId="1884715e-2d74-5bef-807d-f181a6fc5af1" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
+      <intermediateExchange id="a5d49dc7-397a-5b63-b0c4-aeb7fe4da517" amount="0.075008" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="76325e86-7078-549b-8543-e30dec34f2df" intermediateExchangeId="1884715e-2d74-5bef-807d-f181a6fc5af1" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" sourceFirstAuthor="" sourceYear="2020" sourceId="56331880-fbf8-506a-80b4-25142d59eaa4">
         <name xml:lang="en">Hard coal, at regional storage</name>
         <unitName xml:lang="en">kilogram</unitName>
         <comment xml:lang="en">Full flow name: Hard coal, at regional storage
@@ -89,10 +92,11 @@ BAFU mapping audit: {"bafu source exchange index": 3}</comment>
 BAFU mapping audit: {"bafu source exchange index": 4}</comment>
         <uncertainty>
           <lognormal meanValue="0.075008" varianceWithPedigreeUncertainty="0.000693988482232975" mu="-2.590160504467644"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="1" geographicalCorrelation="3"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
-      <intermediateExchange id="75c237fc-85d0-599a-9a9e-48be8a6b317e" amount="9.6432e-05" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="1c1fc4d4-1ee8-5d1c-a234-836f6291d6fa" intermediateExchangeId="f2d55202-cd25-5a45-bb1d-6d8e01e5cf94" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
+      <intermediateExchange id="75c237fc-85d0-599a-9a9e-48be8a6b317e" amount="9.6432e-05" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="1c1fc4d4-1ee8-5d1c-a234-836f6291d6fa" intermediateExchangeId="f2d55202-cd25-5a45-bb1d-6d8e01e5cf94" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" sourceFirstAuthor="" sourceYear="2020" sourceId="3d161347-b304-585d-bf24-e46816b24f69">
         <name xml:lang="en">Hard coal, at regional storage</name>
         <unitName xml:lang="en">kilogram</unitName>
         <comment xml:lang="en">Full flow name: Hard coal, at regional storage
@@ -100,6 +104,7 @@ BAFU mapping audit: {"bafu source exchange index": 4}</comment>
 BAFU mapping audit: {"bafu source exchange index": 5}</comment>
         <uncertainty>
           <lognormal meanValue="9.6432e-05" varianceWithPedigreeUncertainty="0.0005951200299200359" mu="-9.246672461223586"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="1" temporalCorrelation="1" reliability="1" geographicalCorrelation="1"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -111,6 +116,7 @@ BAFU mapping audit: {"bafu source exchange index": 5}</comment>
 BAFU mapping audit: {"bafu source exchange index": 6}</comment>
         <uncertainty>
           <lognormal meanValue="1.9067" varianceWithPedigreeUncertainty="0.13733515058522322" mu="0.645373999088262"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="1" reliability="4" geographicalCorrelation="1"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -122,6 +128,7 @@ BAFU mapping audit: {"bafu source exchange index": 6}</comment>
 BAFU mapping audit: {"bafu source exchange index": 7}</comment>
         <uncertainty>
           <lognormal meanValue="0.0017761" varianceWithPedigreeUncertainty="0.13733515058522322" mu="-6.333335329690993"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="1" reliability="4" geographicalCorrelation="1"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -133,6 +140,7 @@ BAFU mapping audit: {"bafu source exchange index": 7}</comment>
 BAFU mapping audit: {"bafu source exchange index": 8}</comment>
         <uncertainty>
           <lognormal meanValue="0.04" varianceWithPedigreeUncertainty="0.13733515058522322" mu="-3.2188758248682006"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="3" temporalCorrelation="1" reliability="4" geographicalCorrelation="1"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -466,7 +474,7 @@ BAFU mapping audit: {"bafu source exchange index": 30}</comment>
     <modellingAndValidation/>
     <administrativeInformation>
       <dataEntryBy personId="b03936fb-83ac-583c-a3e1-60c4cf9a1f5c" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="René Itten" personEmail="anonymised"/>
-      <dataGeneratorAndPublication personId="b03936fb-83ac-583c-a3e1-60c4cf9a1f5c" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="René Itten" personEmail="anonymised" isCopyrightProtected="true"/>
+      <dataGeneratorAndPublication personId="b03936fb-83ac-583c-a3e1-60c4cf9a1f5c" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="René Itten" personEmail="anonymised" isCopyrightProtected="true" publishedSourceId="8b517adb-67bb-5ff9-84d4-259c98eb87ca" publishedSourceYear="2023" publishedSourceFirstAuthor=""/>
       <fileAttributes majorRelease="2026" minorRelease="0" majorRevision="1" minorRevision="0" defaultLanguage="en" contextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" fileGenerator="BAFU mapped EcoSpold 2 export" internalSchemaVersion="2.0.14">
         <contextName xml:lang="en">BAFU 2026 mapped export; local supporting UUIDs</contextName>
       </fileAttributes>

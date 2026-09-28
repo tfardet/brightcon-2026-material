@@ -59,6 +59,7 @@ Based on current available technology.
 BAFU mapping audit: {"bafu source exchange index": 1}</comment>
         <uncertainty>
           <lognormal meanValue="0.29921" varianceWithPedigreeUncertainty="0.013796147660994941" mu="-1.2066096109804398"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="4" temporalCorrelation="3" reliability="2" geographicalCorrelation="4"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -72,10 +73,11 @@ Based on current available technology.
 BAFU mapping audit: {"bafu source exchange index": 2}</comment>
         <uncertainty>
           <lognormal meanValue="0.57369" varianceWithPedigreeUncertainty="0.013796147660994941" mu="-0.5556660982391444"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="4" temporalCorrelation="3" reliability="2" geographicalCorrelation="4"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
-      <intermediateExchange id="c5d1bcb2-c479-5e3a-b2ed-225b859adf68" amount="0.99901" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="1a8aee66-d03b-55c7-ae1d-872092e24ce3" intermediateExchangeId="22fc751a-be3f-5a56-9975-db7a47ee9bf3" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
+      <intermediateExchange id="c5d1bcb2-c479-5e3a-b2ed-225b859adf68" amount="0.99901" unitId="0ffcf2f0-31e5-53bd-b882-80dc6c9c369a" unitContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" activityLinkId="1a8aee66-d03b-55c7-ae1d-872092e24ce3" intermediateExchangeId="22fc751a-be3f-5a56-9975-db7a47ee9bf3" activityLinkContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" intermediateExchangeContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" sourceFirstAuthor="" sourceYear="2284" sourceId="ade8b3bf-68d0-5f89-aece-6e1ad3ba8c4e">
         <name xml:lang="en">Disposal, powertrain, for electric scooter</name>
         <unitName xml:lang="en">kilogram</unitName>
         <comment xml:lang="en">Full flow name: Disposal, powertrain, for electric scooter
@@ -94,6 +96,7 @@ Based on current available technology.
 BAFU mapping audit: {"bafu source exchange index": 4}</comment>
         <uncertainty>
           <lognormal meanValue="0.12562" varianceWithPedigreeUncertainty="0.013796147660994941" mu="-2.0744938019559025"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="4" temporalCorrelation="3" reliability="2" geographicalCorrelation="4"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -101,7 +104,7 @@ BAFU mapping audit: {"bafu source exchange index": 4}</comment>
     <modellingAndValidation/>
     <administrativeInformation>
       <dataEntryBy personId="4f6004fe-b6a9-5305-a005-ed08db4b6421" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Andrea Delduce" personEmail="anonymised"/>
-      <dataGeneratorAndPublication personId="bcfcb649-f961-5149-b9d5-46330a948940" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Frank Werner" personEmail="anonymised" isCopyrightProtected="true"/>
+      <dataGeneratorAndPublication personId="bcfcb649-f961-5149-b9d5-46330a948940" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Frank Werner" personEmail="anonymised" isCopyrightProtected="true" publishedSourceId="d744dbfe-2f9a-5c4a-93cc-0e76b25763fb" publishedSourceYear="2016" publishedSourceFirstAuthor=""/>
       <fileAttributes majorRelease="2026" minorRelease="0" majorRevision="1" minorRevision="0" defaultLanguage="en" contextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" fileGenerator="BAFU mapped EcoSpold 2 export" internalSchemaVersion="2.0.14">
         <contextName xml:lang="en">BAFU 2026 mapped export; local supporting UUIDs</contextName>
       </fileAttributes>

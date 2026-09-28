@@ -82,6 +82,7 @@ BAFU mapping audit: {"bafu source exchange index": 52}</comment>
 BAFU mapping audit: {"bafu source exchange index": 72}</comment>
         <uncertainty>
           <lognormal meanValue="0.108" varianceWithPedigreeUncertainty="0.35093182708526316" mu="-2.2256240518579173"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="5" temporalCorrelation="1" reliability="5" geographicalCorrelation="5"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -94,6 +95,7 @@ BAFU mapping audit: {"bafu source exchange index": 72}</comment>
 BAFU mapping audit: {"bafu source exchange index": 73}</comment>
         <uncertainty>
           <lognormal meanValue="9123.0" varianceWithPedigreeUncertainty="0.0032108477283534493" mu="9.118553976345474"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="4" temporalCorrelation="1" reliability="1" geographicalCorrelation="3"/>
         </uncertainty>
         <inputGroup>5</inputGroup>
       </intermediateExchange>
@@ -266,6 +268,7 @@ BAFU mapping audit: {"bafu source exchange index": 11}</comment>
 BAFU mapping audit: {"bafu source exchange index": 12}</comment>
         <uncertainty>
           <lognormal meanValue="21550.0" varianceWithPedigreeUncertainty="0.3053981658317853" mu="9.978131095531895"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="4" temporalCorrelation="1" reliability="2" geographicalCorrelation="3"/>
         </uncertainty>
         <compartment subcompartmentId="09cf6235-2645-535b-84a3-ec31dd135977" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">air</compartment>
@@ -602,6 +605,7 @@ BAFU mapping audit: {"bafu source exchange index": 32}</comment>
 BAFU mapping audit: {"bafu source exchange index": 33}</comment>
         <uncertainty>
           <lognormal meanValue="0.0312" varianceWithPedigreeUncertainty="0.1698162901971945" mu="-3.4673371841667002"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="5" temporalCorrelation="1" reliability="5" geographicalCorrelation="5"/>
         </uncertainty>
         <compartment subcompartmentId="3888cd5e-0072-5bc7-83c7-fba4bdfab174" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">natural resource</compartment>
@@ -778,6 +782,7 @@ BAFU mapping audit: {"bafu source exchange index": 43}</comment>
 BAFU mapping audit: {"bafu source exchange index": 44}</comment>
         <uncertainty>
           <lognormal meanValue="0.0312" varianceWithPedigreeUncertainty="0.1698162901971945" mu="-3.4673371841667002"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="5" temporalCorrelation="1" reliability="5" geographicalCorrelation="5"/>
         </uncertainty>
         <compartment subcompartmentId="3888cd5e-0072-5bc7-83c7-fba4bdfab174" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">natural resource</compartment>
@@ -954,6 +959,7 @@ BAFU mapping audit: {"bafu source exchange index": 55}</comment>
 BAFU mapping audit: {"bafu source exchange index": 56}</comment>
         <uncertainty>
           <lognormal meanValue="0.0312" varianceWithPedigreeUncertainty="0.1698162901971945" mu="-3.4673371841667002"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="5" temporalCorrelation="1" reliability="5" geographicalCorrelation="5"/>
         </uncertainty>
         <compartment subcompartmentId="3888cd5e-0072-5bc7-83c7-fba4bdfab174" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">natural resource</compartment>
@@ -986,6 +992,7 @@ BAFU mapping audit: {"bafu source exchange index": 57}</comment>
 BAFU mapping audit: {"bafu source exchange index": 58}</comment>
         <uncertainty>
           <lognormal meanValue="1.33" varianceWithPedigreeUncertainty="0.009084030374332749" mu="0.28517894223366247"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="2" temporalCorrelation="1" reliability="1" geographicalCorrelation="1"/>
         </uncertainty>
         <compartment subcompartmentId="73b06510-e644-5a65-9fb2-3bbdf5258410" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">natural resource</compartment>
@@ -1050,6 +1057,7 @@ BAFU mapping audit: {"bafu source exchange index": 61}</comment>
 BAFU mapping audit: {"bafu source exchange index": 62}</comment>
         <uncertainty>
           <lognormal meanValue="0.219" varianceWithPedigreeUncertainty="0.0912994469484687" mu="-1.5186835491656363"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="5" temporalCorrelation="1" reliability="5" geographicalCorrelation="5"/>
         </uncertainty>
         <compartment subcompartmentId="3888cd5e-0072-5bc7-83c7-fba4bdfab174" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">natural resource</compartment>
@@ -1226,6 +1234,7 @@ BAFU mapping audit: {"bafu source exchange index": 74}</comment>
 BAFU mapping audit: {"bafu source exchange index": 75}</comment>
         <uncertainty>
           <lognormal meanValue="0.0312" varianceWithPedigreeUncertainty="0.1698162901971945" mu="-3.4673371841667002"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="5" temporalCorrelation="1" reliability="5" geographicalCorrelation="5"/>
         </uncertainty>
         <compartment subcompartmentId="3888cd5e-0072-5bc7-83c7-fba4bdfab174" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">natural resource</compartment>
@@ -1237,7 +1246,7 @@ BAFU mapping audit: {"bafu source exchange index": 75}</comment>
     <modellingAndValidation/>
     <administrativeInformation>
       <dataEntryBy personId="5b0d7db8-772a-5909-a765-07cdfe1426d8" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Gabor Doka" personEmail="anonymised"/>
-      <dataGeneratorAndPublication personId="5b0d7db8-772a-5909-a765-07cdfe1426d8" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Gabor Doka" personEmail="anonymised" isCopyrightProtected="true"/>
+      <dataGeneratorAndPublication personId="5b0d7db8-772a-5909-a765-07cdfe1426d8" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Gabor Doka" personEmail="anonymised" isCopyrightProtected="true" publishedSourceId="f7818b0e-8d57-54fd-a6cc-c06c9c43ec38" publishedSourceYear="2012" publishedSourceFirstAuthor=""/>
       <fileAttributes majorRelease="2026" minorRelease="0" majorRevision="1" minorRevision="0" defaultLanguage="en" contextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" fileGenerator="BAFU mapped EcoSpold 2 export" internalSchemaVersion="2.0.14">
         <contextName xml:lang="en">BAFU 2026 mapped export; local supporting UUIDs</contextName>
       </fileAttributes>

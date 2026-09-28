@@ -1759,6 +1759,7 @@ BAFU mapping audit: {"bafu source exchange index": 106}</comment>
 BAFU mapping audit: {"bafu source exchange index": 107}</comment>
         <uncertainty>
           <lognormal meanValue="1.5315e-06" varianceWithPedigreeUncertainty="0.6588088525240687" mu="-13.389262910673581"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="4" temporalCorrelation="1" reliability="1" geographicalCorrelation="1"/>
         </uncertainty>
         <compartment subcompartmentId="4715d9fb-1efc-5514-9bf6-f0bb4e5fab5f" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">air</compartment>
@@ -2095,6 +2096,7 @@ BAFU mapping audit: {"bafu source exchange index": 132}</comment>
 BAFU mapping audit: {"bafu source exchange index": 133}</comment>
         <uncertainty>
           <lognormal meanValue="1.0545e-05" varianceWithPedigreeUncertainty="0.6588088525240687" mu="-11.459858744033536"/>
+          <pedigreeMatrix furtherTechnologyCorrelation="5" completeness="4" temporalCorrelation="1" reliability="1" geographicalCorrelation="1"/>
         </uncertainty>
         <compartment subcompartmentId="4715d9fb-1efc-5514-9bf6-f0bb4e5fab5f" subcompartmentContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83">
           <compartment xml:lang="en">air</compartment>
@@ -2330,7 +2332,7 @@ BAFU mapping audit: {"bafu source exchange index": 148}</comment>
     <modellingAndValidation/>
     <administrativeInformation>
       <dataEntryBy personId="88bf855e-b96a-5ba5-a3bf-2c64afacb90f" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Roland Hischier" personEmail="anonymised"/>
-      <dataGeneratorAndPublication personId="88bf855e-b96a-5ba5-a3bf-2c64afacb90f" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Roland Hischier" personEmail="anonymised" isCopyrightProtected="true"/>
+      <dataGeneratorAndPublication personId="88bf855e-b96a-5ba5-a3bf-2c64afacb90f" personContextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" personName="Roland Hischier" personEmail="anonymised" isCopyrightProtected="true" publishedSourceId="787e8422-fc35-57c9-832a-b1928175a349" publishedSourceYear="2007" publishedSourceFirstAuthor=""/>
       <fileAttributes majorRelease="2026" minorRelease="0" majorRevision="1" minorRevision="0" defaultLanguage="en" contextId="f44c43c1-5cc5-54a6-ade6-24435bd12c83" fileGenerator="BAFU mapped EcoSpold 2 export" internalSchemaVersion="2.0.14">
         <contextName xml:lang="en">BAFU 2026 mapped export; local supporting UUIDs</contextName>
       </fileAttributes>
