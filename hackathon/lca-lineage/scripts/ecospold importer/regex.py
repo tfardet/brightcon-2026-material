@@ -15,7 +15,8 @@ def strip_title(s: str) -> str:
     return re_strip_title.sub("", s)
 
 # detecting potential sources using a year or "et al"
-year_pattern = r"[^\d](?:19\d{2}|2[012]\d{2})([^\d]|$)"  # something not a digit, then 4 digits, not more
+year_base = r"(19\d{2}|2[012]\d{2})"
+year_pattern = rf"[^\d]{year_base}([^\d]|$)"  # something not a digit, then 4 digits, not more
 re_source = re.compile(rf"{year_pattern}|et al", flags=re.M)
 re_year = re.compile(rf"{year_pattern}", flags=re.M)
 
@@ -34,13 +35,13 @@ re_author = re.compile(
 )
 
 # detecting data from standardized format
-p_title = r".+\s1(?P<title>[^.;]+)"
+p_title = r"([^\n]+\s1|^)(?P<title>[^;\n]+)"
 p_type = r"^Type:\s+(?P<type>[^\n]+)$"
 p_first_author = r"^First author:\s+(?P<first_author>[^\n]+)$"
 p_other_authors = r"^Other authors:\s+(?P<other_authors>[^\n]+)$"
-p_year = rf"^Year:\s+(?P<year>{year_pattern})$"
+p_year = rf"^Year:\s+(?P<year>{year_base})$"
 p_publisher = r"^Publisher:\s+(?P<publisher>[^\n]+)$"
-re_formatted_source = re.compile(rf"({p_title})?.+{p_type}.+{p_first_author}.+({p_other_authors}.+)?{p_year}.+({p_publisher})?", flags=re.M|re.DOTALL)
+re_formatted_source = re.compile(rf"{p_title}.+{p_type}.+{p_first_author}.+({p_other_authors}.*)?{p_year}.+({p_publisher}.*)?", flags=re.M|re.DOTALL)
 
 # trying to detect other types of sources if detecting authors failed
 re_any_source = re.compile(rf"\s?[A-Z][^;\d.]+(?=,?[\s]+\(?({year_pattern}|et al))", flags=re.M)

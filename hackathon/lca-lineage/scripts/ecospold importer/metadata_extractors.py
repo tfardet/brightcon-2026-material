@@ -152,7 +152,7 @@ def extract_source_from_process(
     # get author/year or title to create the uid
     year = str(reference.get("year", ""))
 
-    if (not first_author) and (not year):
+    if not first_author:
         raw_data = ref_text or reference.get("title", "")
 
         if raw_data:
@@ -165,7 +165,10 @@ def extract_source_from_process(
 
     for elt in (first_author, other_authors, year):
         if elt:
-            uuid_entries.append(elt if isinstance(elt, str) else "-".join(elt))
+            try:
+                uuid_entries.append(elt if isinstance(elt, str) else "-".join(elt))
+            except:
+                print(elt)
 
     value_for_uuid = "-".join(uuid_entries) or raw_data
 
