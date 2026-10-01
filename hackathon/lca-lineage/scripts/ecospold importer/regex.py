@@ -4,10 +4,18 @@
 import re
 
 
-re_strip = re.compile(r"(?:^[\s,;.]|[\s,;.]$)")
+punct_pattern = r"[\s,;:.\n\r()\"/-]"
+re_strip = re.compile(rf"(?:^{punct_pattern}+|{punct_pattern}+$)")
+re_strip_title = re.compile(r"(?:^[\s,;:.\n\r)\"/-]+|[\s,;:.\r\n(\"/-]+$)")
+
+def strip_title(s: str) -> str:
+    if "(" not in s:
+        s = s.strip(")")
+
+    return re_strip_title.sub("", s)
 
 # detecting potential sources using a year or "et al"
-year_pattern = r"[^\d](?:19\d{2}|2[012]\d{2})"
+year_pattern = r"[^\d](?:19\d{2}|2[012]\d{2})([^\d]|$)"  # something not a digit, then 4 digits, not more
 re_source = re.compile(rf"{year_pattern}|et al", flags=re.M)
 re_year = re.compile(rf"{year_pattern}", flags=re.M)
 
@@ -17,16 +25,16 @@ author_pattern = r"[A-Z][a-z]+(-[A-z][a-z]+)?(, [A-Z]+\.?)?"
 author_pattern = r"[A-Z][\w-]+(, [A-Z]+\.?)?[\s&,]?"
 
 re_authoryear = re.compile(
-    rf"\((?P<author>([A-Z]\w*(, [A-Z]+\.?)?[\s&,-]*)+),? {year_pattern}\)")
+    rf"\((?P<author>([A-Z]\w*(, [A-Z]+\.?)?[\s&,-]*)+),?{year_pattern}\)")
 
 re_author = re.compile(
-    rf"(?P<first>({author_pattern})+)(?:,?\s+{and_pattern}\s+)?"
-    rf"(?P<second>{author_pattern})?(?=,?[\s]+\(?({year_pattern}(\W|$)|et al))",
+    rf"(?P<first>({author_pattern})+)(?:,?\s+{and_pattern}\s+)?( (guidebook|statistics?|data|AG)\s?)?"
+    rf"(?P<second>{author_pattern})?(?=,?\s?({year_pattern}(\W|$)|et al))",
     flags=re.M
 )
 
 # detecting data from standardized format
-p_title = r".+\s1(?P<title>[^.]+)"
+p_title = r".+\s1(?P<title>[^.;]+)"
 p_type = r"^Type:\s+(?P<type>[^\n]+)$"
 p_first_author = r"^First author:\s+(?P<first_author>[^\n]+)$"
 p_other_authors = r"^Other authors:\s+(?P<other_authors>[^\n]+)$"

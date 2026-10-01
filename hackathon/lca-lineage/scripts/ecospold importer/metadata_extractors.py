@@ -5,7 +5,7 @@ import numpy as np
 import re
 
 from regex import (
-    and_pattern, re_strip,
+    and_pattern, re_strip, strip_title,
     re_source, re_year, re_authoryear, re_author, re_any_source,  # regex for author/year
     re_formatted_source,                                          # specific case for processes
     re_report, re_interview, re_personal_corr,                    # regex for type of source
@@ -56,10 +56,35 @@ pm_es2 = {
 }
 
 
+def strip_dict(d: dict) -> dict:
+    '''  Remove punctuation at beginning or end '''
+    return {
+        k: (
+            v if not isinstance(v, str) else
+            (strip_title(v) if k == "title" else re_strip.sub("", v))
+        ) for k, v in d.items()
+    }
+
+
+def strip_results(func):
+    ''' Wrapper for the functions to strip results using `strip_dict` '''
+    def inner(*args, **kwargs):
+        res = func(*args, **kwargs)
+
+        if isinstance(res, dict):
+            return strip_dict(res)
+
+        dres, sres = res
+
+        return strip_dict(dres), sres
+    return inner
+
+
+@strip_results
 def extract_source_from_process(
     reference: dict,
     uid: Callable[[str, str], str]
-) -> dict:
+) -> tuple[dict, str]:
     """
     Return source attributes from a process reference data.
 
@@ -121,12 +146,13 @@ def extract_source_from_process(
 
             del reference[k]
 
+    # remove potential punctuation at beginning or end
+    reference = strip_dict(reference)
+
     # get author/year or title to create the uid
     year = str(reference.get("year", ""))
 
-    value_for_uuid = f"{first_author}{year}"
-
-    if not value_for_uuid:
+    if (not first_author) and (not year):
         raw_data = ref_text or reference.get("title", "")
 
         if raw_data:
@@ -135,9 +161,13 @@ def extract_source_from_process(
             first_author = reference.get("firstAuthor", "")
             year = reference.get("year", "")
 
-            value_for_uuid = f"{first_author}{year}"
+    uuid_entries = []
 
-        value_for_uuid = value_for_uuid or raw_data
+    for elt in (first_author, other_authors, year):
+        if elt:
+            uuid_entries.append(elt if isinstance(elt, str) else "-".join(elt))
+
+    value_for_uuid = "-".join(uuid_entries) or raw_data
 
     ref_uid = uid("source", value_for_uuid)
 
@@ -150,6 +180,7 @@ def extract_source_from_process(
     return reference, ref_text
 
 
+@strip_results
 def extract_process_unformatted(comment: str) -> dict:
     """
     Produce a metadata dict to update the process if the
@@ -236,10 +267,13 @@ def extract_exchange_metadata(comment: str) -> dict:
         'basicUncertainty'
     ]
 
+    raw_data = str(comment)
+
     # pedigree matrix
     pedigree = re_pedigree.search(comment)
 
     if pedigree:
+        raw_data = raw_data[pedigree.span()[1] + 1:]
         pedigree_text = pedigree.groupdict()["matrix"]
         splitter = ";" if ";" in pedigree_text else ","
         tpl = tuple(
@@ -261,10 +295,10 @@ def extract_exchange_metadata(comment: str) -> dict:
 
     start = 0
 
-    for match in re_year.finditer(comment):
+    for match in re_year.finditer(raw_data):
         source_type = 0
         end = match.span()[1]
-        subpart = comment[start:end+7]
+        subpart = raw_data[start:end]
 
         start = max(end, 1)
         
@@ -349,7 +383,7 @@ def extract_exchange_metadata(comment: str) -> dict:
         if year:
             src["year"] = year
 
-        sources.append(src)
+        sources.append(strip_dict(src))
         source_types.append(source_type)
 
     if sources:

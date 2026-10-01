@@ -348,7 +348,8 @@ def dataset_xml(ds, datasets, biosphere, source, sources_root, sources_uids):
             })
 
             value_for_uuid = "_".join(
-                "-".join((k, str(v))) for k, v in src_metadata.items()
+                "-".join((k, str(src_metadata.get(k, ""))))
+                for k in ("firstAuthor", "additionalAuthors", "year")
             )
 
             src_uid = uid("source", value_for_uuid)
