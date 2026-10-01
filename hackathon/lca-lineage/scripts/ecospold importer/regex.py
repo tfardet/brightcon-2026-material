@@ -4,16 +4,26 @@
 import re
 
 
+re_strip = re.compile(r"(?:^[\s,;.]|[\s,;.]$)")
+
 # detecting potential sources using a year or "et al"
-year_pattern = r"(?:19\d{2}|2[012]\d{2})"
+year_pattern = r"[^\d](?:19\d{2}|2[012]\d{2})"
 re_source = re.compile(rf"{year_pattern}|et al", flags=re.M)
 re_year = re.compile(rf"{year_pattern}", flags=re.M)
 
 # detecting the authors (using capitalized words coming before a year or et al)
+and_pattern = r"(?:&|et|and|und|y)"
 author_pattern = r"[A-Z][a-z]+(-[A-z][a-z]+)?(, [A-Z]+\.?)?"
 author_pattern = r"[A-Z][\w-]+(, [A-Z]+\.?)?[\s&,]?"
-re_authoryear = re.compile(rf"\((?P<author>([A-Z]\w*(, [A-Z]+\.?)?[\s&,-]*)+),? {year_pattern}\)")
-re_author = re.compile(rf"(?P<first>({author_pattern})+)(,?\s+(&|et|and|und|y)\s+)?(?P<second>{author_pattern})?(?=,?[\s]+\(?({year_pattern}(\W|$)|et al))", flags=re.M)
+
+re_authoryear = re.compile(
+    rf"\((?P<author>([A-Z]\w*(, [A-Z]+\.?)?[\s&,-]*)+),? {year_pattern}\)")
+
+re_author = re.compile(
+    rf"(?P<first>({author_pattern})+)(?:,?\s+{and_pattern}\s+)?"
+    rf"(?P<second>{author_pattern})?(?=,?[\s]+\(?({year_pattern}(\W|$)|et al))",
+    flags=re.M
+)
 
 # detecting data from standardized format
 p_title = r".+\s1(?P<title>[^.]+)"

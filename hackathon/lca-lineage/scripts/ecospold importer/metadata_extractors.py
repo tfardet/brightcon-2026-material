@@ -2,8 +2,10 @@
 from collections.abc import Callable
 from babel.dates import get_month_names
 import numpy as np
+import re
 
 from regex import (
+    and_pattern, re_strip,
     re_source, re_year, re_authoryear, re_author, re_any_source,  # regex for author/year
     re_formatted_source,                                          # specific case for processes
     re_report, re_interview, re_personal_corr,                    # regex for type of source
@@ -15,8 +17,9 @@ from regex import (
 incorrect_author = set((v.lower() for v in get_month_names('wide', locale='en_US').values()))
 incorrect_author.update((v.lower() for v in get_month_names('wide', locale='de').values()))
 incorrect_author.update(
-    ("in", "average", "annual report", "calculation", "data", "glo", "mpa, rna only, glo",
-     "fakten", "zahlen", "ch", "update", "questionnaire", "questionnaires", "statistics")
+    ("in", "average", "annual report", "calculation", "data", "glo",
+     "mpa, rna only, glo", "fakten", "zahlen", "ch", "update", "questionnaire",
+     "questionnaires", "statistics", "literature")
 )
 
 # conversion from source type to ecospold2 format
@@ -282,37 +285,38 @@ def extract_exchange_metadata(comment: str) -> dict:
         if res_author and res_author.groupdict()["author"]:
             author_start = res_author.span()[0]
 
-            matched_str = res_author.groupdict()["author"].strip(",")
+            matched_str = re_strip.sub("", res_author.groupdict()["author"])
 
-            splitter = "&" if "&" in matched_str else " and "
-            author_split = matched_str.split(splitter)
+            author_split = [
+                re_strip.sub("", v) for v in re.split(and_pattern, matched_str)
+            ]
 
-            author = author_split[0].strip()
+            author = author_split[0]
 
             if author.lower() in incorrect_author:
                 author = None
             elif len(author_split) > 1:
-                other_authors = author_split[1].strip()
+                other_authors = ", ".join(author_split[1:])
         else:
             res_author = re_author.search(subpart)
 
             if res_author:
                 author_start = res_author.span()[0]
                 gdict = res_author.groupdict()
-                first_auth = gdict["first"].strip(",")
+                first_auth = re_strip.sub("", gdict["first"])
 
                 if first_auth.lower() not in incorrect_author:
-                    author = first_auth.strip()
+                    author = first_auth
 
-                    if "second" in gdict:
-                        other_authors = gdict["second"]
+                    if gdict["second"]:
+                        other_authors = re_strip.sub("", gdict["second"])
                 else:
                     author = None
 
                     res_author = re_any_source.search(subpart)
 
                     if res_author:
-                        first_auth = res_author.group().strip()
+                        first_auth = re_strip.sub("", res_author.group())
 
                         if first_auth.lower() not in incorrect_author:
                             author = first_auth
