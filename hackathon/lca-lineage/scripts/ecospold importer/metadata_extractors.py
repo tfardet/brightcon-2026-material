@@ -5,7 +5,7 @@ import numpy as np
 import re
 
 from regex import (
-    and_pattern, re_strip, strip_title,
+    and_pattern, re_punct, re_strip, strip_title,
     re_source, re_year, re_authoryear, re_author, re_any_source,  # regex for author/year
     re_formatted_source,                                          # specific case for processes
     re_report, re_interview, re_personal_corr,                    # regex for type of source
@@ -54,6 +54,24 @@ pm_es2 = {
     "geographicalCorrelation",
     "furtherTechnologyCorrelation"
 }
+
+
+def metadata_to_uuid(d: dict, text: str) -> str:
+    ''' Generate UUID from metadata '''
+    values = []
+
+    for k in ("firstAuthor", "additionalAuthors", "year"):
+        v = str(d.get(k, ''))
+
+        if v:
+            values.append(
+                f"{k}-{re_punct.sub('', v)}"
+            )
+
+    if not values:
+        values.append(text)
+
+    return "_".join(values)
 
 
 def strip_dict(d: dict) -> dict:
@@ -127,9 +145,11 @@ def extract_source_from_process(
 
     if reference["authors"]:
         first_author = reference["authors"][0]
+        reference["firstAuthor"] = first_author
 
         if len(reference["authors"]) > 1:
             other_authors = reference["authors"][1:]
+            reference["other_authors"] = ", ".join(other_authors)
 
     del reference["identifier"]
     del reference["text"]
@@ -139,7 +159,10 @@ def extract_source_from_process(
         # move some entries to the correct ecospold2 name
         if k in reference:
             if k == "type":
-                reference[v] = source_type_to_int.get(reference[k], 0)
+                reference[v] = source_type_to_int.get(
+                    reference[k].lower(),
+                    0
+                )
             elif reference[k] or k in ("firstAuthor", "year", "title"):
                 # if not mandatory only keep it if it's not empty
                 reference[v] = reference[k]
@@ -150,27 +173,16 @@ def extract_source_from_process(
     reference = strip_dict(reference)
 
     # get author/year or title to create the uid
-    year = str(reference.get("year", ""))
-
     if not first_author:
-        raw_data = ref_text or reference.get("title", "")
+        ref_text = ref_text or reference.get("title", "")
 
-        if raw_data:
-            reference.update(extract_process_unformatted(raw_data))
+        if ref_text == "Created for EcoSpold 1 compatibility":
+            return {}, ref_text
 
-            first_author = reference.get("firstAuthor", "")
-            year = reference.get("year", "")
+        if ref_text:
+            reference.update(extract_process_unformatted(ref_text))
 
-    uuid_entries = []
-
-    for elt in (first_author, other_authors, year):
-        if elt:
-            try:
-                uuid_entries.append(elt if isinstance(elt, str) else "-".join(elt))
-            except:
-                print(elt)
-
-    value_for_uuid = "-".join(uuid_entries) or raw_data
+    value_for_uuid = metadata_to_uuid(reference, ref_text)
 
     ref_uid = uid("source", value_for_uuid)
 
@@ -302,12 +314,11 @@ def extract_exchange_metadata(comment: str) -> dict:
         source_type = 0
         end = match.span()[1]
         subpart = raw_data[start:end]
-
-        start = max(end, 1)
         
         year = None
         author = None
         other_authors = None
+        title = None
 
         res = re_year.search(subpart)
 
@@ -321,6 +332,8 @@ def extract_exchange_metadata(comment: str) -> dict:
 
         if res_author and res_author.groupdict()["author"]:
             author_start = res_author.span()[0]
+
+            title = subpart[start:author_start]
 
             matched_str = re_strip.sub("", res_author.groupdict()["author"])
 
@@ -358,6 +371,10 @@ def extract_exchange_metadata(comment: str) -> dict:
                         if first_auth.lower() not in incorrect_author:
                             author = first_auth
 
+        title = title or subpart[author_start:end+1]
+
+        start = max(end, 1)
+
         if not author and not year:
             continue
 
@@ -374,7 +391,7 @@ def extract_exchange_metadata(comment: str) -> dict:
 
         src = {
             "sourceType": source_type,
-            "title": subpart[author_start:end+1]
+            "title": title
         }
 
         if author:
